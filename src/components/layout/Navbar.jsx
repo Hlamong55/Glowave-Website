@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
 import { FaBars, FaTimes } from "react-icons/fa"
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion"
 import logo from "../../assets/testlogo.png"
 
