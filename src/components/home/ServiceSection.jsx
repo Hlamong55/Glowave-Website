@@ -1,103 +1,78 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion"
-import { FaCode, FaSearch, FaBullhorn } from "react-icons/fa"
+
+import brand from "../../assets/services/brand.png"
+import seo from "../../assets/services/seo.png"
+import dev from "../../assets/services/dev.png"
+
+const services = [
+  {
+    title: "Web Development",
+    image: dev,
+    items: ["Modern UI", "Responsive Design", "High Performance", "Frontend Development"],
+    color: "from-purple-100 to-purple-200"
+  },
+  {
+    title: "SEO Optimization",
+    image: seo,
+    items: ["Keyword Strategy", "Technical SEO", "On-page Optimization", "Traffic Growth"],
+    color: "from-blue-100 to-blue-200"
+  },
+  {
+    title: "Online Advertising",
+    image: brand,
+    items: ["Google Ads", "Social Media Ads", "Campaign Strategy", "Conversion Tracking"],
+    color: "from-orange-200 to-red-50"
+  }
+]
 
 function ServicesSection() {
+
   return (
-    <section className="py-20 bg-linear-to-b from-blue-50 to-white">
+    <section className="py-24 bg-linear-to-b from-blue-50 to-white">
 
-      <div className="max-w-7xl mx-auto px-6 text-center">
+      <div className="max-w-7xl mx-auto px-6">
 
-        {/* Section Title */}
-        <motion.h2
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="text-4xl font-bold mb-4"
-        >
+        <h2 className="text-4xl font-bold text-center mb-16">
           Our Core Services
-        </motion.h2>
+        </h2>
 
-        <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.2 }}
-          className="text-gray-600 mb-16 max-w-2xl mx-auto"
-        >
-          We provide powerful digital solutions that help businesses grow,
-          attract more customers and increase revenue.
-        </motion.p>
-
-        {/* Services Grid */}
         <div className="grid md:grid-cols-3 gap-10">
 
-          {/* Service 1 */}
-          <motion.div
-            whileHover={{ y: -10 }}
-            transition={{ type: "spring", stiffness: 300 }}
-            className="p-8 rounded-2xl shadow-lg border hover:shadow-xl transition"
-          >
+          {services.map((service, index) => (
 
-            <div className="text-blue-600 text-4xl mb-6 flex justify-center">
-              <FaCode />
-            </div>
+            <motion.div
+              key={index}
+              whileHover={{ y: -10, scale: 1.03 }}
+              className={`relative p-8 rounded-3xl shadow-lg hover:shadow-2xl transition 
+              bg-linear-to-br ${service.color}`}
+            >
 
-            <h3 className="text-xl font-semibold mb-4">
-              Web Development
-            </h3>
+              {/* Icon Image */}
+              <div className="absolute right-6 top-6 w-26 opacity-90">
+                <img src={service.image} alt={service.title} />
+              </div>
 
-            <p className="text-gray-600">
-              We build fast, scalable and responsive websites designed
-              to deliver great user experiences and drive results.
-            </p>
+              {/* Title */}
+              <h3 className="text-2xl font-semibold mb-6">
+                {service.title}
+              </h3>
 
-          </motion.div>
+              {/* List */}
+              <ul className="space-y-3 text-gray-700">
 
+                {service.items.map((item, i) => (
+                  <li key={i} className="flex items-center gap-2">
+                    <span className="text-blue-600">✔</span>
+                    {item}
+                  </li>
+                ))}
 
-          {/* Service 2 */}
-          <motion.div
-            whileHover={{ y: -10 }}
-            transition={{ type: "spring", stiffness: 300 }}
-            className="p-8 rounded-2xl shadow-lg border hover:shadow-xl transition"
-          >
+              </ul>
 
-            <div className="text-blue-600 text-4xl mb-6 flex justify-center">
-              <FaSearch />
-            </div>
+            </motion.div>
 
-            <h3 className="text-xl font-semibold mb-4">
-              SEO Optimization
-            </h3>
-
-            <p className="text-gray-600">
-              Improve your search engine rankings and attract organic
-              traffic with powerful SEO strategies and technical optimization.
-            </p>
-
-          </motion.div>
-
-
-          {/* Service 3 */}
-          <motion.div
-            whileHover={{ y: -10 }}
-            transition={{ type: "spring", stiffness: 300 }}
-            className="p-8 rounded-2xl shadow-lg border hover:shadow-xl transition"
-          >
-
-            <div className="text-blue-600 text-4xl mb-6 flex justify-center">
-              <FaBullhorn />
-            </div>
-
-            <h3 className="text-xl font-semibold mb-4">
-              Online Advertising
-            </h3>
-
-            <p className="text-gray-600">
-              Run high-performing advertising campaigns across Google,
-              Facebook and other platforms to maximize ROI.
-            </p>
-
-          </motion.div>
+          ))}
 
         </div>
 

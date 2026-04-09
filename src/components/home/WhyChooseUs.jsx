@@ -5,6 +5,7 @@ import { FaRocket, FaShieldAlt, FaChartLine, FaUsers } from "react-icons/fa"
 function WhyChooseUs() {
   return (
     <section className="py-20 bg-linear-to-b from-white to-blue-50">
+      
 
       <div className="max-w-7xl mx-auto px-6 text-center">
 
@@ -34,9 +35,9 @@ function WhyChooseUs() {
           {/* Benefit 1 */}
           <motion.div
             whileHover={{ y: -8 }}
-            className="p-6 bg-white rounded-xl shadow-md hover:shadow-xl transition"
+            className="p-6 bg-white rounded-xl shadow-md hover:shadow-xl transition border-2 border-gray-300"
           >
-            <div className="text-blue-600 text-3xl mb-4 flex justify-center">
+            <div className="text-blue-600 text-4xl mb-4 flex justify-center">
               <FaRocket />
             </div>
 
@@ -53,9 +54,9 @@ function WhyChooseUs() {
           {/* Benefit 2 */}
           <motion.div
             whileHover={{ y: -8 }}
-            className="p-6 bg-white rounded-xl shadow-md hover:shadow-xl transition"
+            className="p-6 bg-white rounded-xl shadow-md hover:shadow-xl transition border-2 border-gray-300"
           >
-            <div className="text-blue-600 text-3xl mb-4 flex justify-center">
+            <div className="text-blue-600 text-4xl mb-4 flex justify-center">
               <FaShieldAlt />
             </div>
 
@@ -72,9 +73,9 @@ function WhyChooseUs() {
           {/* Benefit 3 */}
           <motion.div
             whileHover={{ y: -8 }}
-            className="p-6 bg-white rounded-xl shadow-md hover:shadow-xl transition"
+            className="p-6 bg-white rounded-xl shadow-md hover:shadow-xl transition border-2 border-gray-300"
           >
-            <div className="text-blue-600 text-3xl mb-4 flex justify-center">
+            <div className="text-blue-600 text-4xl mb-4 flex justify-center">
               <FaChartLine />
             </div>
 
@@ -91,9 +92,9 @@ function WhyChooseUs() {
           {/* Benefit 4 */}
           <motion.div
             whileHover={{ y: -8 }}
-            className="p-6 bg-white rounded-xl shadow-md hover:shadow-xl transition"
+            className="p-6 bg-white rounded-xl shadow-md hover:shadow-xl transition border-2 border-gray-300"
           >
-            <div className="text-blue-600 text-3xl mb-4 flex justify-center">
+            <div className="text-blue-600 text-4xl mb-4 flex justify-center">
               <FaUsers />
             </div>
 
