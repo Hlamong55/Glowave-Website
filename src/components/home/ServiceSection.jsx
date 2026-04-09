@@ -1,9 +1,10 @@
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion"
 import { FaCode, FaSearch, FaBullhorn } from "react-icons/fa"
 
 function ServicesSection() {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-20 bg-linear-to-b from-blue-50 to-white">
 
       <div className="max-w-7xl mx-auto px-6 text-center">
 

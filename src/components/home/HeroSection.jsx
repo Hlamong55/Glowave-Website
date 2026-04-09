@@ -87,7 +87,7 @@ const HeroSection = () => {
             src={heroImg}
             alt="Digital Growth Dashboard"
             className="relative w-full max-w-lg rounded-xl shadow-2xl"
-            animate={{ y: [0, -10, 0] }}
+            animate={{ y: [0, -15, 0] }}
             transition={{ duration: 5, repeat: Infinity }}
           />
 
