@@ -1,0 +1,21 @@
+{
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "tryFree": "Try for Free"
+  },
+  "hero": {
+    "title": "Accelerate Your Digital Growth",
+    "subtitle": "We build high-performance websites, powerful SEO strategies and data-driven advertising campaigns.",
+    "startProject": "Start Your Project",
+    "exploreServices": "Explore Services"
+  },
+  "sections": {
+    "servicesTitle": "Our Core Services",
+    "whyChoose": "Why Choose Glowave",
+    "testimonials": "What Clients Say"
+  }
+}
