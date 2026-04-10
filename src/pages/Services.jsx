@@ -1,7 +1,263 @@
+import { motion } from "framer-motion"
+import { FaCheckCircle, FaCode, FaSearch, FaBullhorn } from "react-icons/fa"
+import { Link } from "react-router-dom"
+
 function Services() {
+
+  const services = [
+    {
+      icon: <FaCode />,
+      title: "Web Development",
+      desc: "Modern, scalable and high-performance websites tailored for your business."
+    },
+    {
+      icon: <FaSearch />,
+      title: "SEO Optimization",
+      desc: "Improve search engine rankings and grow organic traffic effectively."
+    },
+    {
+      icon: <FaBullhorn />,
+      title: "Online Advertising",
+      desc: "Data-driven advertising campaigns across Google and social media."
+    }
+  ]
+
+  const pricing = [
+    {
+      title: "Starter",
+      price: "$499",
+      color: "from-blue-100 to-blue-50",
+      features: [
+        "Landing page website",
+        "Responsive design",
+        "Basic SEO",
+        "2 revisions"
+      ]
+    },
+    {
+      title: "Growth",
+      price: "$999",
+      color: "from-purple-100 to-pink-50",
+      features: [
+        "Full business website",
+        "Advanced SEO",
+        "Marketing strategy",
+        "Priority support"
+      ]
+    },
+    {
+      title: "Premium",
+      price: "$1,999",
+      color: "from-indigo-100 to-blue-50",
+      features: [
+        "Custom web platform",
+        "Complete marketing setup",
+        "Advanced analytics",
+        "Dedicated support"
+      ]
+    }
+  ]
+
   return (
-    <div className="p-10 text-center">
-      <h1 className="text-4xl font-bold">Services Page</h1>
+    <div className="pt-20 relative overflow-hidden">
+
+      {/* Floating Background */}
+      <div className="absolute -top-40 -left-40 w-96 h-96 bg-blue-200 rounded-full blur-3xl opacity-30"></div>
+      <div className="absolute -bottom-40 -right-40 w-96 h-96 bg-purple-200 rounded-full blur-3xl opacity-30"></div>
+
+      {/* ===== Hero Intro ===== */}
+
+      <section className="max-w-4xl mx-auto text-center px-6 py-20">
+
+        <motion.h1
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="text-5xl font-bold mb-6"
+        >
+          Growth Solutions for
+          <span className="bg-linear-to-r from-blue-500 to-blue-800 bg-clip-text text-transparent">
+            {" "}Modern Businesses
+          </span>
+        </motion.h1>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          className="text-gray-600 text-lg"
+        >
+          We help companies grow with powerful websites,
+          advanced SEO strategies and high-converting marketing campaigns.
+        </motion.p>
+
+      </section>
+
+
+      {/* ===== Services Section ===== */}
+
+      <section className="py-20">
+
+        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10">
+
+          {services.map((service, i) => (
+
+            <motion.div
+              key={i}
+              whileHover={{ y: -10 }}
+              className="bg-white/70 backdrop-blur-xl p-10 rounded-2xl shadow-lg border border-gray-100"
+            >
+
+              <div className="text-blue-600 text-3xl mb-4">
+                {service.icon}
+              </div>
+
+              <h3 className="text-xl font-semibold mb-3">
+                {service.title}
+              </h3>
+
+              <p className="text-gray-600">
+                {service.desc}
+              </p>
+
+            </motion.div>
+
+          ))}
+
+        </div>
+
+      </section>
+
+
+      {/* ===== Pricing Section ===== */}
+
+      <section className="py-20 bg-blue-50">
+
+        <div className="max-w-7xl mx-auto px-6">
+
+          <h2 className="text-5xl font-bold text-center mb-16">
+            Pricing Plans
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-10">
+
+            {pricing.map((plan, index) => (
+
+              <motion.div
+                key={index}
+                whileHover={{ y: -10 }}
+                className={`p-10 rounded-3xl shadow-xl bg-linear-to-br ${plan.color}`}
+              >
+
+                <h3 className="text-2xl font-semibold mb-4">
+                  {plan.title}
+                </h3>
+
+                <div className="text-5xl font-bold mb-8">
+                  {plan.price}
+                </div>
+
+                <button className="w-full py-3 mb-8 rounded-full bg-white shadow-md hover:shadow-lg transition">
+                  Book a call
+                </button>
+
+                <div className="space-y-3">
+
+                  {plan.features.map((feature, i) => (
+
+                    <div key={i} className="flex items-center gap-2">
+                      <FaCheckCircle className="text-blue-600" />
+                      {feature}
+                    </div>
+
+                  ))}
+
+                </div>
+
+              </motion.div>
+
+            ))}
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      {/* ===== CTA Section ===== */}
+
+      <section className="relative py-16 overflow-hidden">
+
+      {/* Gradient Background */}
+      <div className="absolute inset-0 bg-linear-to-r from-blue-300 via-blue-100 to-blue-300"></div>
+
+      {/* Floating Blur Effects */}
+      <div className="absolute -top-24 left-10 w-72 h-72 bg-white opacity-10 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-0 right-10 w-72 h-72 bg-purple-300 opacity-20 rounded-full blur-3xl"></div>
+
+      <div className="relative max-w-5xl mx-auto text-center px-6 text-white">
+
+        {/* Headline */}
+        <motion.h2
+          initial={{ opacity:0, y:40 }}
+          whileInView={{ opacity:1, y:0 }}
+          transition={{ duration:0.6 }}
+          className="text-4xl md:text-5xl font-bold leading-tight text-gray-600"
+        >
+          Ready to Accelerate Your
+          <span className="block text-blue-600 bg-clip-text ">
+            Digital Growth?
+          </span>
+        </motion.h2>
+
+        {/* Subtext */}
+        <motion.p
+          initial={{ opacity:0 }}
+          whileInView={{ opacity:1 }}
+          transition={{ delay:0.2 }}
+          className="mt-6 text-lg text-gray-700 max-w-2xl mx-auto"
+        >
+          Join businesses that trust Glowave to build powerful websites,
+          boost search rankings and run high-converting marketing campaigns.
+        </motion.p>
+
+        {/* CTA Buttons */}
+        <motion.div
+          initial={{ opacity:0, y:20 }}
+          whileInView={{ opacity:1, y:0 }}
+          transition={{ delay:0.3 }}
+          className="mt-10 flex flex-col md:flex-row justify-center gap-6"
+        >
+
+          <Link
+            to="/contact"
+            className="px-8 py-4 bg-white text-blue-700 rounded-xl font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition hover:bg-blue-600 hover:text-white"
+          >
+            Start Your Project
+          </Link>
+
+          <Link
+            to="/services"
+            className="px-8 py-4 border border-white rounded-xl font-semibold shadow-lg hover:shadow-xl bg-blue-600 hover:bg-white hover:text-blue-700 hover:scale-105 transition"
+          >
+            Explore Services
+          </Link>
+
+        </motion.div>
+
+        {/* Trust Indicator */}
+        <motion.p
+          initial={{ opacity:0 }}
+          whileInView={{ opacity:1 }}
+          transition={{ delay:0.4 }}
+          className="mt-8 text-sm text-gray-700"
+        >
+          🚀 Trusted by startups, agencies and growing businesses worldwide
+        </motion.p>
+
+      </div>
+
+    </section>
+
     </div>
   )
 }
