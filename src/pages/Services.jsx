@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion"
 import { FaCheckCircle, FaCode, FaSearch, FaBullhorn } from "react-icons/fa"
 import { Link } from "react-router-dom"
@@ -59,15 +60,34 @@ function Services() {
   ]
 
   return (
-    <div className="pt-20 relative overflow-hidden">
+    <div className="pt-20 relative overflow-hidden bg-linear-to-b from-blue-50 via-white to-blue-50">
 
-      {/* Floating Background */}
-      <div className="absolute -top-40 -left-40 w-96 h-96 bg-blue-200 rounded-full blur-3xl opacity-30"></div>
-      <div className="absolute -bottom-40 -right-40 w-96 h-96 bg-purple-200 rounded-full blur-3xl opacity-30"></div>
+      {/* Grid Pattern */}
+      <div className="absolute inset-0 opacity-[0.05] bg-[radial-gradient(circle,#000_1px,transparent_1px)] bg-size-[40px_40px]"></div>
+
+      {/* Animated Glow Background */}
+
+      <motion.div
+        animate={{ x:[0,60,0], y:[0,-40,0] }}
+        transition={{ duration:12, repeat:Infinity }}
+        className="absolute -top-40 -left-40 w-105 h-105 bg-blue-300 opacity-30 rounded-full blur-3xl"
+      />
+
+      <motion.div
+        animate={{ x:[0,-60,0], y:[0,50,0] }}
+        transition={{ duration:14, repeat:Infinity }}
+        className="absolute top-40 -right-40 w-105 h-105 bg-purple-300 opacity-30 rounded-full blur-3xl"
+      />
+
+      <motion.div
+        animate={{ y:[0,-60,0] }}
+        transition={{ duration:10, repeat:Infinity }}
+        className="absolute bottom-0 left-1/3 w-75 h-75 bg-blue-200 opacity-40 rounded-full blur-3xl"
+      />
 
       {/* ===== Hero Intro ===== */}
 
-      <section className="max-w-4xl mx-auto text-center px-6 py-20">
+      <section className="max-w-4xl mx-auto text-center px-6 py-20 relative">
 
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
@@ -91,10 +111,9 @@ function Services() {
 
       </section>
 
-
       {/* ===== Services Section ===== */}
 
-      <section className="py-20">
+      <section className="py-20 bg-blue-50">
 
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10">
 
@@ -103,10 +122,10 @@ function Services() {
             <motion.div
               key={i}
               whileHover={{ y: -10 }}
-              className="bg-white/70 backdrop-blur-xl p-10 rounded-2xl shadow-lg border border-gray-100"
+              className="bg-white/70 backdrop-blur-xl p-8 rounded-2xl shadow-lg border border-gray-300 text-center"
             >
 
-              <div className="text-blue-600 text-3xl mb-4">
+              <div className="text-blue-600 text-4xl mb-3 flex items-center justify-center">
                 {service.icon}
               </div>
 
@@ -129,7 +148,7 @@ function Services() {
 
       {/* ===== Pricing Section ===== */}
 
-      <section className="py-20 bg-blue-50">
+      <section className="py-20">
 
         <div className="max-w-7xl mx-auto px-6">
 
@@ -185,7 +204,7 @@ function Services() {
 
       {/* ===== CTA Section ===== */}
 
-      <section className="relative py-16 overflow-hidden">
+      <section className="relative py-14 overflow-hidden">
 
       {/* Gradient Background */}
       <div className="absolute inset-0 bg-linear-to-r from-blue-300 via-blue-100 to-blue-300"></div>
