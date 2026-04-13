@@ -20,7 +20,7 @@ function Testimonials() {
 
         {/* Section Title */}
         <h2 className="text-4xl font-bold text-center mb-16">
-          What Clients Say
+          What Clients Say!!
         </h2>
 
         {/* Masonry Layout */}

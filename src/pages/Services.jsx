@@ -125,7 +125,7 @@ function Services() {
               className="bg-white/70 backdrop-blur-xl p-8 rounded-2xl shadow-lg border border-gray-300 text-center"
             >
 
-              <div className="text-blue-600 text-4xl mb- flex items-center justify-center">
+              <div className="text-blue-600 text-4xl mb-4 flex items-center justify-center">
                 {service.icon}
               </div>
 
@@ -204,7 +204,7 @@ function Services() {
 
       {/* ===== CTA Section ===== */}
 
-      <section className="relative py-16 overflow-hidden">
+      <section className="relative py-14 overflow-hidden">
 
       {/* Gradient Background */}
       <div className="absolute inset-0 bg-linear-to-r from-blue-300 via-blue-100 to-blue-300"></div>

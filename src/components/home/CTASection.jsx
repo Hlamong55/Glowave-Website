@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 function CTASection() {
   return (
-    <section className="relative py-28 overflow-hidden bg-linear-to-t from-white to-blue-50
+    <section className="relative py-20 overflow-hidden bg-linear-to-t from-white to-blue-50
     ">
 
       {/* Soft glow */}
