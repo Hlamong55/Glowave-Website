@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "slug": "seo-for-startups",
+    "title": "SEO Strategies for Startups",
+    "excerpt": "Learn the most effective SEO techniques to help your startup rank higher in search engines.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f"
+  },
+  {
+    "id": 2,
+    "slug": "modern-web-design",
+    "title": "Modern Web Design Trends in 2025",
+    "excerpt": "Explore the latest web design trends that improve user experience and increase conversions.",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+  },
+  {
+    "id": 3,
+    "slug": "digital-marketing-growth",
+    "title": "How Digital Marketing Drives Business Growth",
+    "excerpt": "Discover how digital marketing strategies can help businesses scale faster.",
+    "image": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+  },
+  {
+    "id": 4,
+    "slug": "website-speed-optimization",
+    "title": "Website Speed Optimization Guide",
+    "excerpt": "Learn how to optimize your website speed to improve user experience and SEO rankings.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71"
+  },
+  {
+    "id": 5,
+    "slug": "conversion-rate-optimization",
+    "title": "Conversion Rate Optimization Tips",
+    "excerpt": "Boost your website conversions with proven CRO techniques.",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+  },
+  {
+    "id": 6,
+    "slug": "social-media-marketing",
+    "title": "Power of Social Media Marketing",
+    "excerpt": "Understand how social media marketing helps businesses reach their audience.",
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf"
+  },
+  {
+    "id": 7,
+    "slug": "content-marketing-strategy",
+    "title": "Content Marketing Strategy for Growth",
+    "excerpt": "Build a strong content marketing strategy to attract and retain customers.",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+  },
+  {
+    "id": 8,
+    "slug": "future-of-web-development",
+    "title": "Future of Web Development",
+    "excerpt": "Explore technologies shaping the future of modern web development.",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475"
+  },
+  {
+    "id": 9,
+    "slug": "branding-for-startups",
+    "title": "Branding Strategies for Startups",
+    "excerpt": "Learn how startups can build strong brands that stand out in competitive markets.",
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978"
+  }
+]
