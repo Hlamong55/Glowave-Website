@@ -17,9 +17,29 @@ function Blog() {
 
   return (
 
-    <div className="pt-32 pb-20">
+    <div className="relative pt-32 pb-20 bg-linear-to-b from-blue-50 via-white to-blue-50 overflow-hidden">
 
-      <div className="max-w-7xl mx-auto px-6">
+      {/* Floating Glow Bubbles */}
+
+      <motion.div
+        animate={{ x:[0,60,0], y:[0,-40,0] }}
+        transition={{ duration:12, repeat:Infinity }}
+        className="absolute -top-40 -left-40 w-105 h-105 bg-blue-300 opacity-30 rounded-full blur-3xl"
+      />
+
+      <motion.div
+        animate={{ x:[0,-60,0], y:[0,50,0] }}
+        transition={{ duration:14, repeat:Infinity }}
+        className="absolute top-40 -right-40 w-105 h-105 bg-purple-300 opacity-30 rounded-full blur-3xl"
+      />
+
+      <motion.div
+        animate={{ y:[0,-50,0] }}
+        transition={{ duration:10, repeat:Infinity }}
+        className="absolute bottom-0 left-1/3 w-75 h-75 bg-blue-200 opacity-40 rounded-full blur-3xl"
+      />
+
+      <div className="relative max-w-7xl mx-auto px-6">
 
         {/* Title */}
 
@@ -45,7 +65,7 @@ function Blog() {
               <img
                 src={blog.image}
                 alt={blog.title}
-                className="w-full h-54 object-cover"
+                className="w-full h-54 object-cover hover:scale-105 transition duration-300"
               />
 
               {/* Content */}
