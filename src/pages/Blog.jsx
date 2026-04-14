@@ -9,9 +9,21 @@ function Blog() {
 
   useEffect(() => {
 
-    fetch("/blogs.json")
+    fetch("/blogs.json", { cache: "force-cache" })
       .then(res => res.json())
-      .then(data => setBlogs(data))
+      .then(data => {
+
+        // optimize image size automatically
+        const optimized = data.map(blog => ({
+          ...blog,
+          image: blog.image.includes("?")
+            ? blog.image
+            : `${blog.image}?w=800&q=80`
+        }))
+
+        setBlogs(optimized)
+
+      })
 
   }, [])
 
@@ -23,19 +35,19 @@ function Blog() {
 
       <motion.div
         animate={{ x:[0,60,0], y:[0,-40,0] }}
-        transition={{ duration:12, repeat:Infinity }}
+        transition={{ duration:18, repeat:Infinity }}
         className="absolute -top-40 -left-40 w-105 h-105 bg-blue-300 opacity-30 rounded-full blur-3xl"
       />
 
       <motion.div
         animate={{ x:[0,-60,0], y:[0,50,0] }}
-        transition={{ duration:14, repeat:Infinity }}
+        transition={{ duration:18, repeat:Infinity }}
         className="absolute top-40 -right-40 w-105 h-105 bg-purple-300 opacity-30 rounded-full blur-3xl"
       />
 
       <motion.div
         animate={{ y:[0,-50,0] }}
-        transition={{ duration:10, repeat:Infinity }}
+        transition={{ duration:18, repeat:Infinity }}
         className="absolute bottom-0 left-1/3 w-75 h-75 bg-blue-200 opacity-40 rounded-full blur-3xl"
       />
 
@@ -47,7 +59,6 @@ function Blog() {
           Latest Articles
         </h1>
 
-
         {/* Blog Grid */}
 
         <div className="grid md:grid-cols-3 gap-10">
@@ -57,7 +68,7 @@ function Blog() {
             <motion.div
               key={blog.id}
               whileHover={{ y: -8 }}
-              className="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col border border-gray-300"
+              className="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col border border-gray-300 will-change-transform"
             >
 
               {/* Image */}
@@ -65,6 +76,7 @@ function Blog() {
               <img
                 src={blog.image}
                 alt={blog.title}
+                loading="lazy"
                 className="w-full h-54 object-cover hover:scale-105 transition duration-300"
               />
 
@@ -79,8 +91,6 @@ function Blog() {
                 <p className="text-gray-600 mb-3.5">
                   {blog.excerpt}
                 </p>
-
-                {/* Read More Button */}
 
                 <Link
                   to={`/blog/${blog.slug}`}
