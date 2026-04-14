@@ -46,8 +46,8 @@ function Contact() {
             {/* Email Card */}
 
             <div className="flex items-center gap-4 bg-white shadow-md rounded-xl p-4 mb-4">
-              <div className="w-10 h-10 flex items-center justify-center bg-blue-100 text-blue-600 rounded-lg">
-                <FaEnvelope />
+              <div className="w-11 h-11 flex items-center justify-center bg-blue-100 text-blue-600 rounded-lg">
+                <FaEnvelope size={22} />
               </div>
 
               <div>
@@ -60,31 +60,31 @@ function Contact() {
 
             <div className="flex items-center gap-4 bg-white shadow-md rounded-xl p-4 mb-6">
               <div className="w-10 h-10 flex items-center justify-center bg-blue-100 text-blue-600 rounded-lg">
-                <FaPhoneAlt />
+                <FaPhoneAlt size={22}/>
               </div>
 
               <div>
                 <p className="text-sm text-gray-500">Phone</p>
-                <p className="font-medium">(123) 123-323-23</p>
+                <p className="font-medium">(+880) 1818470577</p>
               </div>
             </div>
 
             {/* Social Icons */}
 
             <div className="flex items-center gap-4">
-              <p className="text-gray-600 mr-2">Reach out to us:</p>
+              <p className="text-gray-700 mr-2">Reach out to us:</p>
 
               <div className="flex gap-3">
-                <a className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-100 hover:bg-blue-600 hover:text-white transition">
-                  <FaFacebookF />
+                <a className="w-11 h-11 flex items-center justify-center rounded-full bg-gray-200 hover:bg-blue-600 hover:text-white transition">
+                  <FaFacebookF size={20}/>
                 </a>
 
-                <a className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-100 hover:bg-black hover:text-white transition">
-                  <FaXTwitter />
+                <a className="w-11 h-11 flex items-center justify-center rounded-full bg-gray-200 hover:bg-black hover:text-white transition">
+                  <FaXTwitter size={20}/>
                 </a>
 
-                <a className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-100 hover:bg-blue-500 hover:text-white transition">
-                  <FaLinkedinIn />
+                <a className="w-11 h-11 flex items-center justify-center rounded-full bg-gray-200 hover:bg-blue-500 hover:text-white transition">
+                  <FaLinkedinIn size={20}/>
                 </a>
               </div>
             </div>
@@ -118,16 +118,11 @@ function Contact() {
                 className="bg-white border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-blue-500"
               />
 
-              {/* Fake captcha placeholder */}
-
-              <div className="border border-gray-300 rounded-lg p-3 flex items-center gap-3">
-                <input type="checkbox" />
-                <span className="text-sm text-gray-600">I'm not a robot</span>
-              </div>
+            
 
               <button
                 type="submit"
-                className="bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition font-medium"
+                className="bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 hover:scale-105 transition font-medium"
               >
                 Send Message
               </button>
@@ -138,10 +133,13 @@ function Contact() {
         {/* Map */}
 
         <div className="mt-20">
+          <p className="text-2xl font-semibold text-blue-600 tracking-widest mb-5">
+              📍Our Location
+            </p>
           <iframe
             title="map"
             className="w-full h-110 rounded-xl"
-            src="https://www.google.com/maps?q=New%20York&output=embed"
+            src="https://www.google.com/maps?q=Chattogram,Bangladesh&output=embed"
           />
         </div>
       </div>
