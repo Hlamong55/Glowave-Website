@@ -4,62 +4,143 @@
     "slug": "seo-for-startups",
     "title": "SEO Strategies for Startups",
     "excerpt": "Learn the most effective SEO techniques to help your startup rank higher in search engines.",
-    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f"
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+    "author": "John Smith",
+    "date": "July 12, 2025",
+    "content": [
+      "Search Engine Optimization is essential for startups that want to gain visibility online.",
+      "By targeting the right keywords and optimizing your website structure you can rank higher in search results.",
+      "High quality content helps search engines understand the value of your website.",
+      "Consistent blogging and link building can significantly improve SEO performance.",
+      "SEO is a long term investment that continues to deliver results over time."
+    ]
   },
   {
     "id": 2,
     "slug": "modern-web-design",
     "title": "Modern Web Design Trends in 2025",
     "excerpt": "Explore the latest web design trends that improve user experience and increase conversions.",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80",
+    "author": "Emily Carter",
+    "date": "June 28, 2025",
+    "content": [
+      "Modern web design focuses on simplicity and performance.",
+      "Minimal layouts and strong typography improve readability and user experience.",
+      "Micro interactions and smooth animations create engaging interfaces.",
+      "Responsive design ensures that websites work perfectly on all devices.",
+      "Design systems help teams maintain consistency across large projects."
+    ]
   },
   {
     "id": 3,
     "slug": "digital-marketing-growth",
     "title": "How Digital Marketing Drives Business Growth",
     "excerpt": "Discover how digital marketing strategies can help businesses scale faster.",
-    "image": "https://images.unsplash.com/photo-1557838923-2985c318be48"
+    "image": "https://images.unsplash.com/photo-1557838923-2985c318be48?w=800&q=80",
+    "author": "David Wilson",
+    "date": "May 18, 2025",
+    "content": [
+      "Digital marketing allows businesses to reach global audiences.",
+      "SEO social media and paid advertising help increase brand visibility.",
+      "Analytics tools allow marketers to measure campaign performance.",
+      "Automation tools help businesses scale their marketing efforts.",
+      "A strong digital marketing strategy can accelerate business growth."
+    ]
   },
   {
     "id": 4,
     "slug": "website-speed-optimization",
     "title": "Website Speed Optimization Guide",
     "excerpt": "Learn how to optimize your website speed to improve user experience and SEO rankings.",
-    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71"
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+    "author": "Sophia Martinez",
+    "date": "April 9, 2025",
+    "content": [
+      "Website speed plays a crucial role in user experience.",
+      "Optimizing images and using modern formats reduces load time.",
+      "Minifying CSS and JavaScript improves page performance.",
+      "Lazy loading ensures resources load only when needed.",
+      "Fast websites improve engagement and reduce bounce rates."
+    ]
   },
   {
     "id": 5,
     "slug": "conversion-rate-optimization",
     "title": "Conversion Rate Optimization Tips",
     "excerpt": "Boost your website conversions with proven CRO techniques.",
-    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&q=80",
+    "author": "Michael Brown",
+    "date": "March 30, 2025",
+    "content": [
+      "Conversion rate optimization focuses on turning visitors into customers.",
+      "Clear call to action buttons improve user engagement.",
+      "A/B testing helps identify which layouts perform best.",
+      "Trust signals such as testimonials increase credibility.",
+      "Continuous optimization ensures better long term results."
+    ]
   },
   {
     "id": 6,
     "slug": "social-media-marketing",
     "title": "Power of Social Media Marketing",
     "excerpt": "Understand how social media marketing helps businesses reach their audience.",
-    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf"
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80",
+    "author": "Olivia Anderson",
+    "date": "February 14, 2025",
+    "content": [
+      "Social media platforms allow brands to interact with audiences directly.",
+      "Consistent posting helps build loyal communities.",
+      "Paid social campaigns provide advanced targeting options.",
+      "Analytics tools help measure social media performance.",
+      "A strong strategy can significantly boost brand awareness."
+    ]
   },
   {
     "id": 7,
     "slug": "content-marketing-strategy",
     "title": "Content Marketing Strategy for Growth",
     "excerpt": "Build a strong content marketing strategy to attract and retain customers.",
-    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80",
+    "author": "Daniel Harris",
+    "date": "January 25, 2025",
+    "content": [
+      "Content marketing focuses on delivering value to audiences.",
+      "Blogs videos and guides help businesses build authority.",
+      "Search optimized content drives organic traffic.",
+      "Consistency is key when building a strong content strategy.",
+      "Great content helps brands build trust and loyalty."
+    ]
   },
   {
     "id": 8,
     "slug": "future-of-web-development",
     "title": "Future of Web Development",
     "excerpt": "Explore technologies shaping the future of modern web development.",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475"
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+    "author": "James Taylor",
+    "date": "January 5, 2025",
+    "content": [
+      "Web development continues to evolve with new technologies.",
+      "Frameworks like React and tools like Vite improve developer productivity.",
+      "Performance accessibility and security are becoming more important.",
+      "AI powered tools are helping developers build smarter applications.",
+      "The future of web development focuses on speed and scalability."
+    ]
   },
   {
     "id": 9,
     "slug": "branding-for-startups",
     "title": "Branding Strategies for Startups",
     "excerpt": "Learn how startups can build strong brands that stand out in competitive markets.",
-    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978"
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+    "author": "Laura Johnson",
+    "date": "December 20, 2024",
+    "content": [
+      "Branding helps startups create a strong identity in competitive markets.",
+      "A clear brand message builds trust with customers.",
+      "Consistent visual identity improves brand recognition.",
+      "Storytelling helps brands connect emotionally with audiences.",
+      "Strong branding helps startups grow faster."
+    ]
   }
 ]
