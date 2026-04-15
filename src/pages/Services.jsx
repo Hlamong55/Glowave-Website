@@ -1,6 +1,18 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
-import { FaCheckCircle, FaCode, FaSearch, FaBullhorn, FaBolt, FaDollarSign, FaBalanceScale, FaStar, FaHeadset, FaRandom, FaChartLine } from "react-icons/fa";
+import {
+  FaCheckCircle,
+  FaCode,
+  FaSearch,
+  FaBullhorn,
+  FaBolt,
+  FaDollarSign,
+  FaBalanceScale,
+  FaStar,
+  FaHeadset,
+  FaRandom,
+  FaChartLine,
+} from "react-icons/fa";
 import { MdOutlineAutoGraph } from "react-icons/md";
 import { Link } from "react-router-dom";
 
@@ -36,20 +48,9 @@ function Services() {
       ],
     },
     {
-      title: "Growth",
-      price: "$999",
-      color: "from-purple-100 to-pink-50",
-      features: [
-        "Full business website",
-        "Advanced SEO",
-        "Marketing strategy",
-        "Priority support",
-      ],
-    },
-    {
       title: "Premium",
       price: "$1,999",
-      color: "from-indigo-100 to-blue-50",
+      color: "from-purple-100 to-pink-50",
       features: [
         "Custom web platform",
         "Complete marketing setup",
@@ -57,6 +58,17 @@ function Services() {
         "Dedicated support",
       ],
     },
+    {
+      title: "Growth",
+      price: "$999",
+      color: "from-indigo-100 to-blue-50",
+      features: [
+        "Full business website",
+        "Advanced SEO",
+        "Marketing strategy",
+        "Priority support",
+      ],
+    }
   ];
 
   return (
@@ -134,11 +146,9 @@ function Services() {
       {/* Why choose Us */}
       <section className="py-24 bg-linear-to-b from-blue-50 via-white to-blue-50">
         <div className="max-w-7xl mx-auto px-6">
-
           <h2 className="max-w-3xl mx-auto text-4xl font-bold text-center mb-12">
             Here are a few things we do that others really just don’t.
           </h2>
-
 
           {/* grid */}
 
@@ -147,7 +157,7 @@ function Services() {
 
             <motion.div
               whileHover={{ y: -6 }}
-              className="lg:col-span-2 rounded-2xl p-8 shadow-lg border border-gray-300 bg-linear-to-br from-pink-50 to-pink-100"
+              className="lg:col-span-2 rounded-2xl p-8 shadow-lg border border-gray-300 bg-linear-to-br from-pink-50 via-white to-pink-100"
             >
               <FaBolt className="text-yellow-400 text-3xl mb-8" />
 
@@ -210,11 +220,11 @@ function Services() {
 
             <motion.div
               whileHover={{ y: -6 }}
-              className="bg-white rounded-2xl p-6 shadow border border-gray-200"
+              className="bg-white rounded-2xl p-5 shadow border border-gray-200"
             >
-              <FaRandom className="text-gray-400 text-xl mb-6" />
+              <FaRandom className="text-gray-500 text-3xl mb-8" />
 
-              <h3 className="font-semibold mb-2">Flexibility</h3>
+              <h3 className="font-semibold mb-3">Flexibility</h3>
 
               <p className="text-gray-600 text-sm">
                 Adapt the service to cover a wide range of design tasks as
@@ -226,11 +236,11 @@ function Services() {
 
             <motion.div
               whileHover={{ y: -6 }}
-              className="bg-white rounded-2xl p-6 shadow border border-gray-200"
+              className="bg-white rounded-2xl p-5 shadow border border-gray-200"
             >
-              <FaHeadset className="text-gray-400 text-xl mb-6" />
+              <FaHeadset className="text-gray-500 text-3xl mb-8" />
 
-              <h3 className="font-semibold mb-2">Support</h3>
+              <h3 className="font-semibold mb-3">Support</h3>
 
               <p className="text-gray-600 text-sm">
                 Enjoy dedicated customer service and revisions to perfect your
@@ -242,9 +252,9 @@ function Services() {
 
             <motion.div
               whileHover={{ y: -6 }}
-              className="bg-white rounded-2xl p-6 shadow border border-gray-200"
+              className="bg-white rounded-2xl p-5 shadow border border-gray-200"
             >
-              <FaCheckCircle className="text-gray-400 text-xl mb-6" />
+              <FaCheckCircle className="text-gray-500 text-3xl mb-8" />
 
               <h3 className="font-semibold mb-2">Convenience</h3>
 
@@ -258,9 +268,9 @@ function Services() {
 
             <motion.div
               whileHover={{ y: -6 }}
-              className="lg:col-span-2 bg-white rounded-2xl p-8 shadow-lg border border-gray-200"
+              className="lg:col-span-2 rounded-2xl p-8 shadow-lg border border-gray-300 bg-linear-to-br from-pink-100 via-white to-pink-50"
             >
-              <FaStar className="text-pink-400 text-2xl mb-6" />
+              <FaStar className="text-pink-500 text-3xl mb-8" />
 
               <h3 className="text-xl font-semibold mb-3">Diversity</h3>
 
@@ -288,24 +298,50 @@ function Services() {
             {pricing.map((plan, index) => (
               <motion.div
                 key={index}
-                whileHover={{ y: -10 }}
-                className={`p-10 rounded-3xl shadow-xl bg-linear-to-br ${plan.color}`}
+                whileHover={{ y: -15, scale: 1.02 }}
+                transition={{ type: "spring", stiffness: 200 }}
+                className="group relative p-[1px] rounded-3xl bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400"
               >
-                <h3 className="text-2xl font-semibold mb-4">{plan.title}</h3>
+                {/* Most Popular Badge */}
 
-                <div className="text-5xl font-bold mb-8">{plan.price}</div>
+                {index === 1 && (
+                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-blue-600 text-white text-xs font-semibold px-4 py-1 rounded-full shadow-lg">
+                    ⭐ Most Popular
+                  </div>
+                )}
 
-                <button className="w-full py-3 mb-8 rounded-full bg-white shadow-md hover:shadow-lg transition">
-                  Book a call
-                </button>
+                {/* Card Body */}
 
-                <div className="space-y-3">
-                  {plan.features.map((feature, i) => (
-                    <div key={i} className="flex items-center gap-2">
-                      <FaCheckCircle className="text-blue-600" />
-                      {feature}
-                    </div>
-                  ))}
+                <div
+                  className={`p-10 rounded-3xl bg-gradient-to-br ${plan.color} shadow-lg transition duration-300 group-hover:shadow-[0_25px_60px_rgba(59,130,246,0.25)]`}
+                >
+                  {/* Title */}
+
+                  <h3 className="text-2xl font-semibold mb-4">{plan.title}</h3>
+
+                  {/* Price */}
+
+                  <div className="text-5xl font-bold mb-8">{plan.price}</div>
+
+                  {/* Button */}
+
+                  <button className="w-full py-3 mb-8 rounded-3xl bg-white font-medium shadow-md transition duration-300 hover:scale-105 hover:shadow-xl">
+                    Book a call
+                  </button>
+
+                  {/* Features */}
+
+                  <div className="space-y-3">
+                    {plan.features.map((feature, i) => (
+                      <div
+                        key={i}
+                        className="flex items-center gap-2 text-gray-700"
+                      >
+                        <FaCheckCircle className="text-blue-600" />
+                        {feature}
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </motion.div>
             ))}
