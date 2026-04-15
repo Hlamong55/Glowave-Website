@@ -1,5 +1,6 @@
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import { FaPhoneAlt, FaEnvelope, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 function Contact() {
