@@ -300,12 +300,12 @@ function Services() {
                 key={index}
                 whileHover={{ y: -15, scale: 1.02 }}
                 transition={{ type: "spring", stiffness: 200 }}
-                className="group relative p-[1px] rounded-3xl bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400"
+                className="group relative p-0.5 rounded-3xl bg-linear-to-r from-blue-400 via-purple-400 to-pink-400"
               >
                 {/* Most Popular Badge */}
 
                 {index === 1 && (
-                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-blue-600 text-white text-xs font-semibold px-4 py-1 rounded-full shadow-lg">
+                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-blue-600 text-white text-xs font-semibold px-4 py-2 rounded-full shadow-lg">
                     ⭐ Most Popular
                   </div>
                 )}
@@ -313,7 +313,7 @@ function Services() {
                 {/* Card Body */}
 
                 <div
-                  className={`p-10 rounded-3xl bg-gradient-to-br ${plan.color} shadow-lg transition duration-300 group-hover:shadow-[0_25px_60px_rgba(59,130,246,0.25)]`}
+                  className={`p-10 rounded-3xl bg-linear-to-br ${plan.color} shadow-lg transition duration-300 group-hover:shadow-[0_25px_60px_rgba(59,130,246,0.25)]`}
                 >
                   {/* Title */}
 
