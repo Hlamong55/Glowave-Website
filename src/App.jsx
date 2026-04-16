@@ -1,3 +1,4 @@
+import Footer from "./components/layout/Footer"
 import Navbar from "./components/layout/Navbar"
 import ScrollTopBtn from "./components/layout/ScrollTopBtn"
 import WhatsAppButton from "./components/layout/WhatsAppBtn"
@@ -10,6 +11,7 @@ function App() {
     <AppRoutes></AppRoutes>
     <ScrollTopBtn></ScrollTopBtn>
     <WhatsAppButton></WhatsAppButton>
+    <Footer></Footer>
     </>
   )
 }
