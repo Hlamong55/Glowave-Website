@@ -5,16 +5,16 @@ import logo from "../../assets/testlogo.png";
 
 function Footer() {
   return (
-    <footer className="bg-black text-gray-300 pt-16 ">
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10">
+    <footer className="bg-black text-gray-300 pt-16 px-4">
+      <div className="max-w-7xl mx-auto  grid md:grid-cols-5 gap-12">
         {/* Logo + Description */}
 
         <div>
-          <div className="gap-3 mb-4">
+          <div className=" mb-5">
             <img src={logo} className="h-15 rounded-full" />
           </div>
 
-          <p className="text-gray-400 text-sm mb-6">
+          <p className="text-gray-400 text-sm mb-5">
             We build high-performance websites, SEO strategies and digital
             marketing solutions that help businesses grow faster.
           </p>
@@ -34,6 +34,28 @@ function Footer() {
               <FaLinkedinIn />
             </a>
           </div>
+        </div>
+
+
+        {/* Quick links */}
+
+        <div>
+          <h3 className="text-left md:text-center text-white font-semibold mb-4">Quick Links</h3>
+
+          <ul className="text-left md:text-center space-y-3 text-sm">
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/blog">Blog</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
+          </ul>
         </div>
 
         {/* Services */}
@@ -60,23 +82,23 @@ function Footer() {
         {/* Links */}
 
         <div>
-          <h3 className="text-white font-semibold mb-4">Quick Links</h3>
+          <h3 className="text-white font-semibold mb-4">Other Links</h3>
 
           <ul className="space-y-3 text-sm">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">Privacy Policy</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/about">Terms of Service</Link>
             </li>
             <li>
-              <Link to="/blog">Blog</Link>
+              <Link to="/blog">Refund Policy</Link>
             </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
+            
           </ul>
         </div>
+
+
 
         {/* Newsletter */}
 
@@ -91,7 +113,7 @@ function Footer() {
             <input
               type="email"
               placeholder="Your email"
-              className="bg-white text-black py-1.5 rounded-lg outline-none flex-1 text-sm pl-1.5"
+              className="bg-white text-black py-2 rounded-lg outline-none text-sm pl-1.5"
             />
 
             <button className="text-blue-500 text-sm font-medium ml-2 hover:font-bold hover:text-blue-600">
