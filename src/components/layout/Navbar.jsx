@@ -74,7 +74,7 @@ function Navbar() {
 
         {/* Logo */}
         <Link to="/" className="flex items-center">
-          <img src={logo} alt="Glowave Logo" className="h-11 w-auto" />
+          <img src={logo} alt="Glowave Logo" className="h-11 w-auto rounded-3xl" />
         </Link>
 
         {/* Desktop Navigation */}

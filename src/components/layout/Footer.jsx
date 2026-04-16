@@ -21,16 +21,16 @@ function Footer() {
 
           {/* Social */}
 
-          <div className="flex gap-4">
-            <a className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-800 hover:bg-blue-600 transition">
+          <div className="flex gap-5">
+            <a className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-700 hover:bg-blue-600 transition">
               <FaFacebookF />
             </a>
 
-            <a className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-800 hover:bg-black transition">
+            <a className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-700 hover:bg-black transition">
               <FaXTwitter />
             </a>
 
-            <a className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-800 hover:bg-blue-500 transition">
+            <a className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-700 hover:bg-blue-500 transition">
               <FaLinkedinIn />
             </a>
           </div>
@@ -83,18 +83,18 @@ function Footer() {
         <div>
           <h3 className="text-white font-semibold mb-4">Newsletter</h3>
 
-          <p className="text-sm text-gray-400 mb-4">
+          <p className="text-sm text-gray-400 mb-6">
             Subscribe to get updates on new articles and growth strategies.
           </p>
 
-          <div className="flex border-b border-gray-600 pb-2">
+          <div className="flex border-b border-gray-500 pb-2">
             <input
               type="email"
               placeholder="Your email"
-              className="bg-transparent outline-none flex-1 text-sm"
+              className="bg-white text-black py-1.5 rounded-lg outline-none flex-1 text-sm pl-1.5"
             />
 
-            <button className="text-blue-500 text-sm font-medium">
+            <button className="text-blue-500 text-sm font-medium ml-2 hover:font-bold hover:text-blue-600">
               Subscribe
             </button>
           </div>
@@ -103,8 +103,17 @@ function Footer() {
 
       {/* Bottom */}
 
-      <div className="bg-gray-900 border-t border-gray-800 mt-10 p-6 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} Glowave. All rights reserved.
+      <div className="border-t border-gray-800 mt-12 py-5 flex flex-col md:flex-row justify-center items-center text-sm text-gray-400 gap-3">
+        <p>© {new Date().getFullYear()} Glowave. All rights reserved.</p>
+
+        ||
+
+        <p>
+          This Website is made with
+          <span className="text-red-500 mx-1">❤</span>
+          by
+          <span className="text-blue-500 ml-1 font-medium">Hlamong Marma</span>
+        </p>
       </div>
     </footer>
   );
