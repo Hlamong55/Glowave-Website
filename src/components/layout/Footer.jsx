@@ -86,7 +86,7 @@ function Footer() {
 
           <ul className="space-y-3 text-sm">
             <li>
-              <Link to="/">Privacy Policy</Link>
+              <Link to="/privacy-policy">Privacy Policy</Link>
             </li>
             <li>
               <Link to="/about">Terms of Service</Link>

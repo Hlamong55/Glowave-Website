@@ -129,7 +129,7 @@ function Services() {
             <motion.div
               key={i}
               whileHover={{ y: -10 }}
-              className="bg-white/70 backdrop-blur-xl p-8 rounded-2xl shadow-lg border border-gray-300 text-center"
+              className="bg-white/70 backdrop-blur-xl p-8 rounded-2xl shadow-lg border border-gray-300 text-center hover:shadow-xl hover:bg-purple-50"
             >
               <div className="text-blue-600 text-4xl mb-4 flex items-center justify-center">
                 {service.icon}

@@ -62,7 +62,7 @@ function About() {
         className="absolute top-20 -right-40 w-96 h-96 bg-purple-300 opacity-30 rounded-full blur-3xl -z-10"
       />
 
-      <section className="pt-34 pb-12 text-center max-w-4xl mx-auto">
+      <section className="pt-34 pb-10 text-center max-w-4xl mx-auto">
         <h1 className="text-5xl font-bold mb-6">
           About{" "}
           <span className="bg-linear-to-r from-blue-500 to-blue-800 bg-clip-text text-transparent">
@@ -161,7 +161,7 @@ function About() {
       </section>
 
       {/* client statistics */}
-      <section className="py-24 bg-linear-to-b from-blue-50 to-white">
+      <section className="py-20 bg-linear-to-b from-blue-50 to-white">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-4xl font-bold text-center mb-16">
             Achievements & Recognition
@@ -206,28 +206,28 @@ function About() {
           {/* ===== Animated Stats (Fixed) ===== */}
           <div className="grid md:grid-cols-4 gap-10 text-center">
             <div>
-              <h3 className="text-4xl font-bold text-blue-600">
+              <h3 className="text-5xl font-bold text-blue-700">
                 <Counter target={120} suffix="+" />
               </h3>
               <p className="text-gray-600 mt-2">Projects Delivered</p>
             </div>
 
             <div>
-              <h3 className="text-4xl font-bold text-blue-600">
+              <h3 className="text-5xl font-bold text-blue-700">
                 <Counter target={85} suffix="+" />
               </h3>
               <p className="text-gray-600 mt-2">Happy Clients</p>
             </div>
 
             <div>
-              <h3 className="text-4xl font-bold text-blue-600">
+              <h3 className="text-5xl font-bold text-blue-700">
                 <Counter target={12} />
               </h3>
               <p className="text-gray-600 mt-2">Countries Served</p>
             </div>
 
             <div>
-              <h3 className="text-4xl font-bold text-blue-600">5★</h3>
+              <h3 className="text-5xl font-bold text-blue-700">5★</h3>
               <p className="text-gray-600 mt-2">Average Rating</p>
             </div>
           </div>
@@ -235,12 +235,12 @@ function About() {
       </section>
 
       {/* Team */}
-      <section className="py-16 bg-linear-to-b from-blue-50 to-white">
+      <section className="py-16 bg-linear-to-br from-purple-200 via-blue-100 to-yellow-200">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-1.5">
-            Meet Our Team
+          <h2 className="text-5xl font-bold text-center mb-1.5">
+            Meet The Team
           </h2>
-          <h3 className="text-3xl font-bold text-center mb-12">Join Us!</h3>
+          <h3 className="text-2xl font-semibold text-center mb-12">Behind The Creative Process Of Building Your Brand</h3>
 
           <div className="grid md:grid-cols-3 gap-12">
             {[
