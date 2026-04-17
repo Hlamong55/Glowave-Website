@@ -6,7 +6,8 @@ import About from "../pages/About"
 import Blog from "../pages/Blog"
 import BlogPost from "../pages/BlogPost"
 import Contact from "../pages/Contact"
-import PrivacyPolicy from "../pages/privacyPolicy"
+import PrivacyPolicy from "../pages/PrivacyPolicy"
+import Terms from "../pages/TermsOfService"
 
 function AppRoutes() {
   return (
@@ -18,6 +19,7 @@ function AppRoutes() {
       <Route path="/blog/:slug" element={<BlogPost />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/terms&service" element={<Terms />} />
     </Routes>
   )
 }

@@ -89,7 +89,7 @@ function Footer() {
               <Link to="/privacy-policy">Privacy Policy</Link>
             </li>
             <li>
-              <Link to="/about">Terms of Service</Link>
+              <Link to="/terms&service">Terms of Service</Link>
             </li>
             <li>
               <Link to="/blog">Refund Policy</Link>
