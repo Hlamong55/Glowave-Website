@@ -19,9 +19,12 @@ function Testimonials() {
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Section Title */}
-        <h2 className="text-4xl font-bold text-center mb-16">
-          What Clients Say!!
+        <h2 className="text-4xl font-bold text-center mb-5">
+          What Our Clients Say!!
         </h2>
+        <p className="text-center mb-12 text-gray-700">
+          Hear from our incredible customers who are building at lighting speed
+        </p>
 
         {/* Masonry Layout */}
         <div className="columns-1 md:columns-2 lg:columns-3 gap-8">
@@ -33,7 +36,7 @@ function Testimonials() {
               whileHover={{ y: -8, scale: 1.02 }}
               className="break-inside-avoid mb-8 p-7 rounded-2xl
               bg-linear-to-br from-white to-blue-50
-              border border-blue-100
+              border border-blue-200
               shadow-lg hover:shadow-2xl
               transition duration-300"
             >

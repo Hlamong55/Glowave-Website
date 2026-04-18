@@ -351,7 +351,7 @@ function Services() {
 
       {/* ===== CTA Section ===== */}
 
-      <section className="relative py-14 overflow-hidden">
+      <section className="relative py-12 overflow-hidden">
         {/* Gradient Background */}
         <div className="absolute inset-0 bg-linear-to-r from-blue-300 via-blue-100 to-blue-300"></div>
 
@@ -411,7 +411,7 @@ function Services() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
-            className="mt-8 text-sm text-gray-700"
+            className="mt-8 text-sm text-gray-800"
           >
             🚀 Trusted by startups, agencies and growing businesses worldwide
           </motion.p>
