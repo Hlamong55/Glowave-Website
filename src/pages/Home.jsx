@@ -1,5 +1,6 @@
 import Clients from "../components/home/Clients"
 import CTASection from "../components/home/CTASection"
+import FAQ from "../components/home/FAQ"
 import HeroSection from "../components/home/HeroSection"
 import ServicesSection from "../components/home/ServiceSection"
 import Testimonials from "../components/home/Testimonials"
@@ -13,6 +14,7 @@ function Home() {
         <WhyChooseUs></WhyChooseUs>
         <Clients></Clients>
         <Testimonials></Testimonials>
+        <FAQ></FAQ>
         <CTASection></CTASection>
     </>
   )
