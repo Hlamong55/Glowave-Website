@@ -8,8 +8,11 @@ import amazon from "../../assets/clients/amazon.png"
 import casio from "../../assets/clients/casio.png"
 import randstad from "../../assets/clients/randstad.png"
 import star from "../../assets/clients/star.png"
+import { useTranslation } from "react-i18next"
 
 function Clients() {
+
+  const { t } = useTranslation()
 
   const logos = [google, shopify, slack, amazon, casio, randstad, star]
 
@@ -20,11 +23,11 @@ function Clients() {
 
         {/* Title */}
         <h2 className="text-4xl font-bold mb-4">
-          Trusted by Leading Companies
+          {t("trusted.title")}
         </h2>
 
         <p className="text-gray-600 mb-16">
-          Businesses around the world trust Glowave to grow their digital presence.
+         {t("trusted.subtitle")}
         </p>
 
         {/* Logos */}

@@ -32,6 +32,38 @@
     }
   },
 
+    "why": {
+    "title": "Por qué elegir",
+    "subtitle": "Combinamos innovación, estrategia y tecnología para ayudar a las empresas a crecer.",
+
+    "fast": {
+      "title": "Alto rendimiento",
+      "desc": "Nuestras soluciones están optimizadas para velocidad."
+    },
+
+    "secure": {
+      "title": "Soluciones seguras",
+      "desc": "Construimos plataformas digitales seguras."
+    },
+
+    "growth": {
+      "title": "Crecimiento probado",
+      "desc": "Estrategias enfocadas en resultados medibles."
+    },
+
+    "team": {
+      "title": "Equipo experto",
+      "desc": "Trabaja con profesionales experimentados."
+    }
+  },
+
+  "trusted": {
+  "title": "Confiado por empresas líderes",
+  "subtitle": "Empresas de todo el mundo confían en Glowave para hacer crecer su presencia digital."
+  },
+
+
+
   "about": {
     "title": "Nuestra Visión y Experiencia",
     "subtitle": "Ayudando a las empresas a crecer con tecnología.",

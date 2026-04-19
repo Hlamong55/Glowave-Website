@@ -17,20 +17,69 @@
 
   "services": {
     "title": "Our Core Services",
-    "subtitle": "We provide powerful digital solutions that help businesses grow, attract more customers, and increase revenue.",
+
     "web": {
       "title": "Web Development",
-      "desc": "Fast, scalable and modern websites designed for performance."
+      "items": [
+        "Modern UI",
+        "Responsive Design",
+        "High Performance",
+        "Frontend Development"
+      ]
     },
+
     "seo": {
       "title": "SEO Optimization",
-      "desc": "Improve search rankings and grow organic traffic."
+      "items": [
+        "Keyword Strategy",
+        "Technical SEO",
+        "On-page Optimization",
+        "Traffic Growth"
+      ]
     },
+
     "ads": {
       "title": "Online Advertising",
-      "desc": "Run high-performing advertising campaigns."
+      "items": [
+        "Google Ads",
+        "Social Media Ads",
+        "Campaign Strategy",
+        "Conversion Tracking"
+      ]
     }
   },
+
+  "why": {
+    "title": "Why Choose",
+    "subtitle": "We combine innovation, strategy and technology to help businesses succeed in the digital world.",
+
+    "fast": {
+      "title": "Fast Performance",
+      "desc": "Our solutions are optimized for speed and performance."
+    },
+
+    "secure": {
+      "title": "Secure Solutions",
+      "desc": "We build reliable and secure digital platforms."
+    },
+
+    "growth": {
+      "title": "Proven Growth",
+      "desc": "Our strategies are focused on measurable results."
+    },
+
+    "team": {
+      "title": "Expert Team",
+      "desc": "Work with experienced professionals dedicated to your success."
+    }
+  },
+
+  "trusted": {
+  "title": "Trusted by Leading Companies",
+  "subtitle": "Businesses around the world trust Glowave to grow their digital presence."
+  },
+
+
 
   "about": {
     "title": "Our Vision & Expertise",

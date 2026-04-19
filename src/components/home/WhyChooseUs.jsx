@@ -1,12 +1,15 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion"
 import { FaRocket, FaShieldAlt, FaChartLine, FaUsers } from "react-icons/fa"
+import { useTranslation } from "react-i18next"
 
 function WhyChooseUs() {
+
+  const { t } = useTranslation()
+
   return (
     <section className="py-20 bg-linear-to-b from-white to-blue-50">
       
-
       <div className="max-w-7xl mx-auto px-6 text-center">
 
         {/* Section Title */}
@@ -16,7 +19,7 @@ function WhyChooseUs() {
           transition={{ duration: 0.6 }}
           className="text-4xl font-bold mb-4"
         >
-          Why Choose <span className="text-blue-700 ">Glowave</span>
+          {t("why.title")} <span className="text-blue-700">Glowave</span>
         </motion.h2>
 
         <motion.p
@@ -25,8 +28,7 @@ function WhyChooseUs() {
           transition={{ delay: 0.2 }}
           className="text-gray-600 max-w-2xl mx-auto mb-16"
         >
-          We combine innovation, strategy and technology to help businesses
-          succeed in the digital world.
+          {t("why.subtitle")}
         </motion.p>
 
         {/* Benefits Grid */}
@@ -42,11 +44,11 @@ function WhyChooseUs() {
             </div>
 
             <h3 className="font-semibold text-lg mb-2">
-              Fast Performance
+              {t("why.fast.title")}
             </h3>
 
             <p className="text-gray-600 text-sm">
-              Our solutions are optimized for speed and performance.
+              {t("why.fast.desc")}
             </p>
           </motion.div>
 
@@ -61,11 +63,11 @@ function WhyChooseUs() {
             </div>
 
             <h3 className="font-semibold text-lg mb-2">
-              Secure Solutions
+              {t("why.secure.title")}
             </h3>
 
             <p className="text-gray-600 text-sm">
-              We build reliable and secure digital platforms.
+              {t("why.secure.desc")}
             </p>
           </motion.div>
 
@@ -80,11 +82,11 @@ function WhyChooseUs() {
             </div>
 
             <h3 className="font-semibold text-lg mb-2">
-              Proven Growth
+              {t("why.growth.title")}
             </h3>
 
             <p className="text-gray-600 text-sm">
-              Our strategies are focused on measurable results.
+              {t("why.growth.desc")}
             </p>
           </motion.div>
 
@@ -99,11 +101,11 @@ function WhyChooseUs() {
             </div>
 
             <h3 className="font-semibold text-lg mb-2">
-              Expert Team
+              {t("why.team.title")}
             </h3>
 
             <p className="text-gray-600 text-sm">
-              Work with experienced professionals dedicated to your success.
+              {t("why.team.desc")}
             </p>
           </motion.div>
 

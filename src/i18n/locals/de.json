@@ -16,9 +16,71 @@
   },
 
   "services": {
-    "title": "Unsere Dienstleistungen",
-    "subtitle": "Digitale Lösungen für Ihr Unternehmenswachstum."
+  "title": "Unsere Kernservices",
+
+  "web": {
+    "title": "Webentwicklung",
+    "items": [
+      "Modernes UI",
+      "Responsives Design",
+      "Hohe Leistung",
+      "Frontend-Entwicklung"
+    ]
   },
+
+  "seo": {
+    "title": "SEO-Optimierung",
+    "items": [
+      "Keyword-Strategie",
+      "Technisches SEO",
+      "On-Page Optimierung",
+      "Traffic Wachstum"
+    ]
+  },
+
+  "ads": {
+    "title": "Online Werbung",
+    "items": [
+      "Google Ads",
+      "Social Media Werbung",
+      "Kampagnenstrategie",
+      "Conversion Tracking"
+    ]
+  }
+ },
+
+  "why": {
+    "title": "Warum wählen",
+    "subtitle": "Wir kombinieren Innovation, Strategie und Technologie.",
+
+    "fast": {
+      "title": "Hohe Leistung",
+      "desc": "Unsere Lösungen sind für Geschwindigkeit optimiert."
+    },
+
+    "secure": {
+      "title": "Sichere Lösungen",
+      "desc": "Wir entwickeln sichere digitale Plattformen."
+    },
+
+    "growth": {
+      "title": "Bewährtes Wachstum",
+      "desc": "Strategien mit messbaren Ergebnissen."
+    },
+
+    "team": {
+      "title": "Experten-Team",
+      "desc": "Arbeiten Sie mit erfahrenen Profis."
+    }
+  },
+
+  "trusted": {
+  "title": "Von führenden Unternehmen vertraut",
+  "subtitle": "Unternehmen auf der ganzen Welt vertrauen Glowave, um ihre digitale Präsenz auszubauen."
+  },
+
+  
+
 
   "about": {
     "title": "Unsere Vision und Expertise",
