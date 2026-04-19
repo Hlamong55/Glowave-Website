@@ -1,134 +1,126 @@
-import { useState } from "react"
-import { motion, AnimatePresence } from "framer-motion"
-import { FaChevronDown } from "react-icons/fa"
+import { useState } from "react";
+// eslint-disable-next-line no-unused-vars
+import { motion, AnimatePresence } from "framer-motion";
+import { FaChevronDown } from "react-icons/fa";
 
 const faqs = [
   {
-    question: "How long does it take to build a website?",
-    answer:
-      "Project timelines depend on complexity. A standard business website usually takes between 2–4 weeks including design, development, and revisions."
+    q: "How long does it take to build a website?",
+    a: "Most business websites take around 2–4 weeks depending on complexity, revisions, and integrations.",
   },
   {
-    question: "Do you provide SEO with website development?",
-    answer:
-      "Yes. All websites we build include basic SEO optimization such as proper structure, performance optimization, and search engine indexing setup."
+    q: "Do you provide SEO with website development?",
+    a: "Yes. We include technical SEO, performance optimization, and search engine indexing setup.",
   },
   {
-    question: "Can you redesign my existing website?",
-    answer:
-      "Absolutely. We specialize in redesigning outdated websites and transforming them into modern, high-performance digital experiences."
+    q: "Can you redesign my existing website?",
+    a: "Absolutely. We specialize in redesigning outdated websites into modern high-performance platforms.",
   },
   {
-    question: "Do you offer ongoing support?",
-    answer:
-      "Yes. We provide ongoing maintenance, updates, and performance monitoring depending on the support plan you choose."
+    q: "Do you offer ongoing support?",
+    a: "Yes. We offer maintenance plans including updates, performance monitoring, and security checks.",
   },
   {
-    question: "What industries do you work with?",
-    answer:
-      "We work with startups, SaaS companies, agencies, and growing businesses looking to improve their digital presence."
-  }
-]
+    q: "What industries do you work with?",
+    a: "We work with startups, SaaS companies, agencies, and growing businesses globally.",
+  },
+  {
+    q: "Do you build scalable SaaS platforms?",
+    a: "Yes. Our team builds scalable SaaS platforms with modern technologies and performance optimization.",
+  },
+];
 
 function FAQ() {
+  const [active, setActive] = useState(null);
 
-  const [activeIndex, setActiveIndex] = useState(null)
-
-  const toggleFAQ = (index) => {
-    setActiveIndex(activeIndex === index ? null : index)
-  }
+  const toggle = (i) => {
+    setActive(active === i ? null : i);
+  };
 
   return (
+    <section className="relative py-20 bg-linear-to-b from-white via-blue-50 to-white overflow-hidden">
+      {/* floating glow background */}
 
-    <section className="py-16 bg-gradient-to-b from-blue-50 via-white to-blue-50">
+      <div className="absolute top-10 left-10 w-80 h-80 bg-blue-400 opacity-20 blur-3xl rounded-full"></div>
+      <div className="absolute bottom-10 right-10 w-80 h-80 bg-indigo-400 opacity-20 blur-3xl rounded-full"></div>
 
-      <div className="max-w-5xl mx-auto px-6">
-
+      <div className="max-w-7xl mx-auto px-6 relative">
         {/* Title */}
 
         <div className="text-center mb-16">
-
-          <h2 className="text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Frequently Asked Questions
           </h2>
 
           <p className="text-gray-600">
-            Everything you need to know about our services.
+            Everything you need to know about working with Glowave
           </p>
-
         </div>
 
-        {/* FAQ Items */}
+        {/* FAQ Grid */}
 
-        <div className="space-y-4">
-
-          {faqs.map((faq, index) => {
-
-            const isOpen = activeIndex === index
+        <div className="grid md:grid-cols-2 gap-6">
+          {faqs.map((faq, i) => {
+            const open = active === i;
 
             return (
-
               <motion.div
-                key={index}
+                key={i}
                 layout
-                className="bg-white border border-gray-200 rounded-2xl shadow-sm"
+                onClick={() => toggle(i)}
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: i * 0.08 }}
+                className="group relative cursor-pointer"
               >
+                {/* gradient border */}
 
-                {/* Question */}
+                <div
+                  className={`absolute inset-0 rounded-2xl bg-linear-to-r 
+  ${open ? "from-blue-500 to-indigo-500" : "from-gray-200 to-gray-200"}
+  opacity-70 blur-sm group-hover:opacity-100 transition`}
+                />
 
-                <button
-                  onClick={() => toggleFAQ(index)}
-                  className="w-full flex items-center justify-between p-6 text-left"
-                >
+                {/* card */}
 
-                  <span className="font-medium text-lg">
-                    {faq.question}
-                  </span>
+                <div className="relative bg-white/80 backdrop-blur-lg rounded-2xl p-7 shadow-lg">
+                  {/* question */}
 
-                  <motion.div
-                    animate={{ rotate: isOpen ? 180 : 0 }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    <FaChevronDown />
-                  </motion.div>
-
-                </button>
-
-                {/* Answer */}
-
-                <AnimatePresence>
-
-                  {isOpen && (
+                  <div className="flex items-center justify-between">
+                    <span className="text-lg font-semibold">{faq.q}</span>
 
                     <motion.div
-                      initial={{ height: 0, opacity: 0 }}
-                      animate={{ height: "auto", opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.3 }}
-                      className="px-6 pb-6 text-gray-600"
+                      animate={{ rotate: open ? 180 : 0 }}
+                      transition={{ duration: 0.25 }}
+                      className="text-gray-500"
                     >
-
-                      {faq.answer}
-
+                      <FaChevronDown />
                     </motion.div>
+                  </div>
 
-                  )}
+                  {/* answer */}
 
-                </AnimatePresence>
-
+                  <AnimatePresence>
+                    {open && (
+                      <motion.div
+                        initial={{ opacity: 0, height: 0 }}
+                        animate={{ opacity: 1, height: "auto" }}
+                        exit={{ opacity: 0, height: 0 }}
+                        transition={{ duration: 0.35 }}
+                        className="text-gray-600 mt-4"
+                      >
+                        {faq.a}
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
               </motion.div>
-
-            )
-
+            );
           })}
-
         </div>
-
       </div>
-
     </section>
-
-  )
+  );
 }
 
-export default FAQ
+export default FAQ;
