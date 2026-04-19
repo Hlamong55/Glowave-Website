@@ -1,11 +1,16 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion"
 import { Link } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 import heroImg from "../../assets/hero-dashboard.png"
 
 const HeroSection = () => {
-    return (
-        <section className="pt-24 pb-8 bg-linear-to-b from-white via-blue-50 to-blue-100 overflow-hidden">
+
+  const { t } = useTranslation()
+
+  return (
+
+    <section className="pt-24 pb-8 bg-linear-to-b from-white via-blue-50 to-blue-100 overflow-hidden">
 
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
 
@@ -18,10 +23,9 @@ const HeroSection = () => {
             transition={{ duration: 0.6 }}
             className="text-5xl md:text-6xl font-bold leading-tight"
           >
-            Accelerate Your
-            <span className="bg-linear-to-r from-blue-400 to-blue-800 bg-clip-text text-transparent">
-              {" "}Digital Growth
-            </span>
+
+            {t("hero.title")}
+
           </motion.h1>
 
           <motion.p
@@ -30,8 +34,9 @@ const HeroSection = () => {
             transition={{ duration: 0.8 }}
             className="mt-6 text-gray-600 text-lg"
           >
-            We build high-performance websites, powerful SEO strategies,
-            and data-driven advertising campaigns that help your business grow.
+
+            {t("hero.subtitle")}
+
           </motion.p>
 
           {/* CTA Buttons */}
@@ -41,19 +46,21 @@ const HeroSection = () => {
             transition={{ delay: 0.4 }}
             className="mt-8 flex gap-4"
           >
+
             <Link
               to="/services"
-              className="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition transform hover:scale-105 shadow-lg"
+              className="bg-blue-600 text-white px-7 py-3.5 rounded-lg font-medium hover:bg-white hover:text-black border border-gray-500 transition transform hover:scale-105 shadow-lg"
             >
-              Our Services
+              {t("hero.primaryBtn")}
             </Link>
 
             <Link
               to="/contact"
-              className="border border-gray-400 px-6 py-3 rounded-lg font-medium bg-white hover:bg-gray-100 transform hover:scale-105 shadow-sm"
+              className="border border-gray-400 px-7 py-3.5 rounded-lg font-medium bg-white hover:bg-blue-600 hover:text-white transform hover:scale-105 transition shadow-sm"
             >
-              Contact Us
+              {t("hero.secondaryBtn")}
             </Link>
+
           </motion.div>
 
         </div>
@@ -96,7 +103,8 @@ const HeroSection = () => {
       </div>
 
     </section>
-    );
-};
 
-export default HeroSection;
+  )
+}
+
+export default HeroSection
