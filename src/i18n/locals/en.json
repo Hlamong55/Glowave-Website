@@ -5,17 +5,86 @@
     "about": "About",
     "blog": "Blog",
     "contact": "Contact",
-    "tryFree": "Try for Free"
+    "demo": "Try for Free"
   },
+
   "hero": {
     "title": "Accelerate Your Digital Growth",
-    "subtitle": "We build high-performance websites, powerful SEO strategies and data-driven advertising campaigns.",
-    "startProject": "Start Your Project",
-    "exploreServices": "Explore Services"
+    "subtitle": "We build high-performance websites, powerful SEO strategies, and data-driven marketing campaigns.",
+    "primaryBtn": "Our Services",
+    "secondaryBtn": "Contact Us"
   },
-  "sections": {
-    "servicesTitle": "Our Core Services",
-    "whyChoose": "Why Choose Glowave",
-    "testimonials": "What Clients Say"
+
+  "services": {
+    "title": "Our Core Services",
+    "subtitle": "We provide powerful digital solutions that help businesses grow, attract more customers, and increase revenue.",
+    "web": {
+      "title": "Web Development",
+      "desc": "Fast, scalable and modern websites designed for performance."
+    },
+    "seo": {
+      "title": "SEO Optimization",
+      "desc": "Improve search rankings and grow organic traffic."
+    },
+    "ads": {
+      "title": "Online Advertising",
+      "desc": "Run high-performing advertising campaigns."
+    }
+  },
+
+  "about": {
+    "title": "Our Vision & Expertise",
+    "subtitle": "Helping companies grow through technology and strategy.",
+    "missionTitle": "Design with intention",
+    "missionDesc": "We partner with teams to design websites that feel alive, clear, and trusted."
+  },
+
+  "pricing": {
+    "title": "Unlock Your Growth",
+    "subtitle": "Choose a plan that fits your business needs.",
+    "starter": "Starter",
+    "growth": "Growth",
+    "premium": "Premium",
+    "book": "Book a Call"
+  },
+
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about working with Glowave.",
+    "q1": "How long does it take to build a website?",
+    "a1": "Most business websites take around 2–4 weeks depending on complexity and revisions.",
+    "q2": "Do you provide SEO with website development?",
+    "a2": "Yes, every website we build includes foundational SEO optimization.",
+    "q3": "Can you redesign my existing website?",
+    "a3": "Yes, we specialize in redesigning outdated websites into modern digital platforms.",
+    "q4": "Do you offer ongoing support?",
+    "a4": "Yes, we offer ongoing support, maintenance, and updates.",
+    "q5": "What industries do you work with?",
+    "a5": "We work with startups, SaaS companies, and growing businesses."
+  },
+
+  "cta": {
+    "title": "Ready to Accelerate Your Digital Growth?",
+    "subtitle": "Let Glowave help you build powerful digital experiences.",
+    "btn1": "Start Your Project",
+    "btn2": "Explore Services"
+  },
+
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions? Our team is ready to help.",
+    "name": "Full Name",
+    "email": "Email",
+    "company": "Company",
+    "message": "Leave us a message",
+    "send": "Send Message"
+  },
+
+  "footer": {
+    "services": "Services",
+    "links": "Quick Links",
+    "newsletter": "Newsletter",
+    "subscribe": "Subscribe",
+    "copyright": "All rights reserved"
   }
 }

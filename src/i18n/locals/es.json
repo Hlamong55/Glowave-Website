@@ -1,9 +1,80 @@
 {
-  "heroTitle": "Acelera tu crecimiento digital",
-  "heroSubtitle": "Construimos sitios web de alto rendimiento, estrategias SEO potentes y campañas basadas en datos.",
-  "startProject": "Inicia tu proyecto",
-  "exploreServices": "Explorar servicios",
-  "servicesTitle": "Nuestros servicios",
-  "whyChoose": "Por qué elegir Glowave",
-  "testimonials": "Lo que dicen los clientes"
+  "navbar": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Acerca de",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "demo": "Prueba Gratis"
+  },
+
+  "hero": {
+    "title": "Acelera tu crecimiento digital",
+    "subtitle": "Construimos sitios web de alto rendimiento, estrategias SEO poderosas y campañas de marketing basadas en datos.",
+    "primaryBtn": "Nuestros Servicios",
+    "secondaryBtn": "Contáctanos"
+  },
+
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones digitales diseñadas para hacer crecer tu negocio.",
+    "web": {
+      "title": "Desarrollo Web",
+      "desc": "Sitios web rápidos, escalables y modernos."
+    },
+    "seo": {
+      "title": "Optimización SEO",
+      "desc": "Mejora tu posicionamiento en buscadores."
+    },
+    "ads": {
+      "title": "Publicidad Online",
+      "desc": "Campañas publicitarias de alto rendimiento."
+    }
+  },
+
+  "about": {
+    "title": "Nuestra Visión y Experiencia",
+    "subtitle": "Ayudando a las empresas a crecer con tecnología.",
+    "missionTitle": "Diseño con propósito",
+    "missionDesc": "Creamos sitios web claros y confiables."
+  },
+
+  "pricing": {
+    "title": "Impulsa tu crecimiento",
+    "subtitle": "Elige el plan adecuado para tu negocio.",
+    "starter": "Inicial",
+    "growth": "Crecimiento",
+    "premium": "Premium",
+    "book": "Reservar una llamada"
+  },
+
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Glowave."
+  },
+
+  "cta": {
+    "title": "¿Listo para acelerar tu crecimiento digital?",
+    "subtitle": "Construyamos algo increíble juntos.",
+    "btn1": "Comenzar Proyecto",
+    "btn2": "Explorar Servicios"
+  },
+
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Nuestro equipo está listo para ayudarte.",
+    "name": "Nombre Completo",
+    "email": "Correo Electrónico",
+    "company": "Empresa",
+    "message": "Escribe tu mensaje",
+    "send": "Enviar Mensaje"
+  },
+
+  "footer": {
+    "services": "Servicios",
+    "links": "Enlaces Rápidos",
+    "newsletter": "Boletín",
+    "subscribe": "Suscribirse",
+    "copyright": "Todos los derechos reservados"
+  }
 }

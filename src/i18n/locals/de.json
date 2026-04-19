@@ -1,9 +1,51 @@
 {
-  "heroTitle": "Beschleunigen Sie Ihr digitales Wachstum",
-  "heroSubtitle": "Wir entwickeln leistungsstarke Websites, starke SEO-Strategien und datenbasierte Marketingkampagnen.",
-  "startProject": "Projekt starten",
-  "exploreServices": "Services entdecken",
-  "servicesTitle": "Unsere Dienstleistungen",
-  "whyChoose": "Warum Glowave",
-  "testimonials": "Was Kunden sagen"
+  "navbar": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "demo": "Kostenlose Demo"
+  },
+
+  "hero": {
+    "title": "Beschleunigen Sie Ihr digitales Wachstum",
+    "subtitle": "Wir erstellen leistungsstarke Websites und Marketingstrategien.",
+    "primaryBtn": "Unsere Services",
+    "secondaryBtn": "Kontaktieren Sie uns"
+  },
+
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Digitale Lösungen für Ihr Unternehmenswachstum."
+  },
+
+  "about": {
+    "title": "Unsere Vision und Expertise",
+    "subtitle": "Unternehmen durch Technologie wachsen lassen."
+  },
+
+  "pricing": {
+    "title": "Starten Sie Ihr Wachstum",
+    "subtitle": "Wählen Sie den passenden Plan."
+  },
+
+  "faq": {
+    "title": "Häufig gestellte Fragen"
+  },
+
+  "cta": {
+    "title": "Bereit für digitales Wachstum?",
+    "subtitle": "Erstellen Sie leistungsstarke digitale Erlebnisse."
+  },
+
+  "contact": {
+    "title": "Kontaktieren Sie uns"
+  },
+
+  "footer": {
+    "services": "Services",
+    "links": "Schnelllinks",
+    "newsletter": "Newsletter"
+  }
 }
