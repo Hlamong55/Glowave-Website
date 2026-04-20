@@ -4,41 +4,41 @@
     "name": "Sarah Johnson",
     "role": "Project Manager",
     "avatar": "https://i.pravatar.cc/80?img=1",
-    "text": "Glowave made our portfolio feel premium, focused and surprisingly easy to maintain."
+    "text": "testimonials.reviews.0"
   },
   {
     "id": 2,
     "name": "Jenny Parker",
     "role": "Designer",
     "avatar": "https://i.pravatar.cc/80?img=2",
-    "text": "The 3D visuals instantly lifted our agency website above competitors."
+    "text": "testimonials.reviews.3"
   },
   {
     "id": 3,
     "name": "Mark Thompson",
     "role": "CEO, Global Solutions",
     "avatar": "https://i.pravatar.cc/80?img=3",
-    "text": "Setup was painless and every Glowave section already looked like thoughtful client work."
+    "text": "testimonials.reviews.1"
   },
   {
     "id": 4,
     "name": "Emily Smith",
     "role": "CEO-Founder",
     "avatar": "https://i.pravatar.cc/80?img=4",
-    "text": "Glowave finally gave my case studies structure, rhythm and a calm aesthetic."
+    "text": "testimonials.reviews.4"
   },
   {
     "id": 5,
     "name": "John Doe",
     "role": "Founder",
     "avatar": "https://i.pravatar.cc/80?img=5",
-    "text": "Clients keep complimenting the site. Glowave quietly does the selling for me."
+    "text": "testimonials.reviews.2"
   },
   {
     "id": 6,
     "name": "Emily Smith",
     "role": "CEO, Codify",
     "avatar": "https://i.pravatar.cc/80?img=6",
-    "text": "Glowave’s gallery makes our work shine without distracting from project details."
+    "text": "testimonials.reviews.5"
   }
 ]

@@ -2,8 +2,11 @@ import { useEffect, useState } from "react"
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion"
 import { FaStar } from "react-icons/fa"
+import { useTranslation } from "react-i18next"
 
 function Testimonials() {
+
+  const { t } = useTranslation()
 
   const [testimonials, setTestimonials] = useState([])
 
@@ -20,10 +23,10 @@ function Testimonials() {
 
         {/* Section Title */}
         <h2 className="text-4xl font-bold text-center mb-5">
-          What Our Clients Say!!
+          {t("testimonials.title")}
         </h2>
         <p className="text-center mb-12 text-gray-700">
-          Hear from our incredible customers who are building at lighting speed
+          {t("testimonials.subtitle")}
         </p>
 
         {/* Masonry Layout */}
@@ -48,7 +51,7 @@ function Testimonials() {
 
               {/* Text */}
               <p className="text-gray-600 leading-relaxed mb-6">
-                {item.text}
+                {t(item.text)}
               </p>
 
               {/* Client Info */}
@@ -57,15 +60,15 @@ function Testimonials() {
                 <img
                   src={item.avatar}
                   alt={item.name}
-                  className="w-11 h-11 rounded-full border border-blue-200"
+                  className="w-12 h-12 rounded-full border border-blue-500"
                 />
 
                 <div>
-                  <h4 className="font-semibold text-gray-900">
+                  <h4 className="font-bold text-gray-900">
                     {item.name}
                   </h4>
 
-                  <p className="text-sm text-gray-500">
+                  <p className="text-sm text-gray-600">
                     {item.role}
                   </p>
                 </div>

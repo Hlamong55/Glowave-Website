@@ -62,6 +62,20 @@
   "subtitle": "Empresas de todo el mundo confían en Glowave para hacer crecer su presencia digital."
   },
 
+  "testimonials": {
+  "title": "Lo que dicen nuestros clientes",
+  "subtitle": "Escucha a nuestros increíbles clientes",
+
+  "reviews": [
+    "Glowave hizo que nuestro portafolio se vea más profesional.",
+    "La configuración fue sencilla y todo se veía increíble.",
+    "Los clientes siguen elogiando nuestro sitio.",
+    "Los visuales 3D elevaron nuestra web por encima de la competencia.",
+    "Glowave organizó perfectamente nuestros estudios de caso.",
+    "La galería de Glowave hace que nuestro trabajo destaque."
+  ]
+  },
+
 
 
   "about": {
