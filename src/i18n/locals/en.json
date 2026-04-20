@@ -97,6 +97,18 @@
   "sp": {
   "servicesSubtitle": "We help companies grow with powerful websites, advanced SEO strategies and high-converting marketing campaigns.",
 
+  "servicesCards": {
+  "web": {
+    "desc": "Modern, scalable and high-performance websites tailored for your business."
+  },
+  "seo": {
+    "desc": "Improve search engine rankings and grow organic traffic effectively."
+  },
+  "ads": {
+    "desc": "Data-driven advertising campaigns across Google and social media."
+  }
+  },
+
   "featuresTitle": "Here are a few things we do that others really just don’t.",
 
   "features": {

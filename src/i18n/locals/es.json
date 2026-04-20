@@ -80,6 +80,18 @@
   "sp": {
   "servicesSubtitle": "Ayudamos a las empresas a crecer con sitios web potentes, estrategias avanzadas de SEO y campañas de marketing de alta conversión.",
 
+  "servicesCards": {
+  "web": {
+    "desc": "Sitios web modernos, escalables y de alto rendimiento adaptados a tu negocio."
+  },
+  "seo": {
+    "desc": "Mejora el posicionamiento en buscadores y aumenta el tráfico orgánico."
+  },
+  "ads": {
+    "desc": "Campañas publicitarias basadas en datos en Google y redes sociales."
+  }
+  },
+
   "featuresTitle": "Estas son algunas cosas que hacemos y que otros simplemente no hacen.",
 
   "features": {

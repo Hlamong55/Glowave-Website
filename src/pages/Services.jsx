@@ -25,17 +25,17 @@ function Services() {
     {
       icon: <FaCode />,
       title: t("services.web.title"),
-      desc: "Modern, scalable and high-performance websites tailored for your business.",
+      desc: t("sp.servicesCards.web.desc"),
     },
     {
       icon: <FaSearch />,
       title: t("services.seo.title"),
-      desc: "Improve search engine rankings and grow organic traffic effectively.",
+      desc: t("sp.servicesCards.seo.desc"),
     },
     {
       icon: <FaBullhorn />,
       title: t("services.ads.title"),
-      desc: "Data-driven advertising campaigns across Google and social media.",
+      desc: t("sp.servicesCards.ads.desc"),
     },
   ];
 

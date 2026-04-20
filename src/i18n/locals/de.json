@@ -98,6 +98,18 @@
   "sp": {
   "servicesSubtitle": "Wir helfen Unternehmen zu wachsen mit leistungsstarken Websites, fortschrittlichen SEO-Strategien und hochkonvertierenden Marketingkampagnen.",
 
+  "servicesCards": {
+  "web": {
+    "desc": "Moderne, skalierbare und leistungsstarke Websites für Ihr Unternehmen."
+  },
+  "seo": {
+    "desc": "Verbessern Sie Ihr Ranking in Suchmaschinen und steigern Sie den organischen Traffic."
+  },
+  "ads": {
+    "desc": "Datenbasierte Werbekampagnen auf Google und Social Media."
+  }
+  },
+
   "featuresTitle": "Hier sind einige Dinge, die wir tun und andere einfach nicht.",
 
   "features": {
