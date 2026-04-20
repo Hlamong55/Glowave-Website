@@ -112,18 +112,34 @@
   },
 
   "faq": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Everything you need to know about working with Glowave.",
-    "q1": "How long does it take to build a website?",
-    "a1": "Most business websites take around 2–4 weeks depending on complexity and revisions.",
-    "q2": "Do you provide SEO with website development?",
-    "a2": "Yes, every website we build includes foundational SEO optimization.",
-    "q3": "Can you redesign my existing website?",
-    "a3": "Yes, we specialize in redesigning outdated websites into modern digital platforms.",
-    "q4": "Do you offer ongoing support?",
-    "a4": "Yes, we offer ongoing support, maintenance, and updates.",
-    "q5": "What industries do you work with?",
-    "a5": "We work with startups, SaaS companies, and growing businesses."
+  "title": "Frequently Asked Questions",
+  "subtitle": "Everything you need to know about working with Glowave",
+  "questions": [
+    {
+      "q": "How long does it take to build a website?",
+      "a": "Most business websites take around 2–4 weeks depending on complexity, revisions, and integrations."
+    },
+    {
+      "q": "Do you provide SEO with website development?",
+      "a": "Yes. We include technical SEO, performance optimization, and search engine indexing setup."
+    },
+    {
+      "q": "Can you redesign my existing website?",
+      "a": "Absolutely. We specialize in redesigning outdated websites into modern high-performance platforms."
+    },
+    {
+      "q": "Do you offer ongoing support?",
+      "a": "Yes. We offer maintenance plans including updates, performance monitoring, and security checks."
+    },
+    {
+      "q": "What industries do you work with?",
+      "a": "We work with startups, SaaS companies, agencies, and growing businesses globally."
+    },
+    {
+      "q": "Do you build scalable SaaS platforms?",
+      "a": "Yes. Our team builds scalable SaaS platforms with modern technologies and performance optimization."
+    }
+  ]
   },
 
   "cta": {

@@ -62,7 +62,7 @@ function About() {
         className="absolute top-20 -right-40 w-96 h-96 bg-purple-300 opacity-30 rounded-full blur-3xl -z-10"
       />
 
-      <section className="pt-34 pb-10 text-center max-w-4xl mx-auto">
+      <section className="pt-34 pb-8 text-center max-w-3xl mx-auto">
         <h1 className="text-5xl font-bold mb-6">
           About{" "}
           <span className="bg-linear-to-r from-blue-500 to-blue-800 bg-clip-text text-transparent">

@@ -1,8 +1,12 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion"
+import { useTranslation } from "react-i18next"
 import { Link } from "react-router-dom"
 
 function CTASection() {
+
+  const { t } = useTranslation();
+
   return (
     <section className="relative py-20 overflow-hidden bg-linear-to-t from-purple-100 to-blue-50
     ">
@@ -19,7 +23,7 @@ function CTASection() {
           transition={{ duration:0.6 }}
           className="text-4xl md:text-5xl font-bold mb-6"
         >
-          Ready to Accelerate Your Digital Growth?
+          {t("cta.title")}
         </motion.h2>
 
         <motion.p
@@ -28,8 +32,7 @@ function CTASection() {
           transition={{ delay:0.2 }}
           className="text-gray-600 max-w-2xl mx-auto mb-10 text-lg"
         >
-          Let Glowave help you build powerful digital experiences,
-          improve your online visibility and grow your business faster.
+           {t("cta.subtitle")}
         </motion.p>
 
         <motion.div
@@ -44,7 +47,7 @@ function CTASection() {
             className="bg-white text-blue-600 font-semibold border px-8 py-4 rounded-xl hover:bg-blue-500 hover:text-white
             shadow-lg hover:shadow-xl hover:scale-105 transition"
           >
-            Start Your Project
+             {t("cta.btn1")}
           </Link>
 
           <Link
@@ -52,7 +55,7 @@ function CTASection() {
             className="border font-semibold bg-blue-500 text-white px-8 py-4 rounded-xl
             hover:bg-white hover:text-blue-600 hover:scale-105 transition"
           >
-            Explore Services
+            {t("cta.btn2")}
           </Link>
 
         </motion.div>

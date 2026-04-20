@@ -95,14 +95,40 @@
   },
 
   "faq": {
-    "title": "Preguntas Frecuentes",
-    "subtitle": "Todo lo que necesitas saber sobre Glowave."
+  "title": "Preguntas Frecuentes",
+  "subtitle": "Todo lo que necesitas saber sobre trabajar con Glowave",
+  "questions": [
+    {
+      "q": "¿Cuánto tiempo se tarda en construir un sitio web?",
+      "a": "Un sitio web empresarial estándar suele tardar entre 2 y 4 semanas dependiendo de la complejidad."
+    },
+    {
+      "q": "¿Ofrecen SEO con el desarrollo web?",
+      "a": "Sí. Incluimos SEO técnico, optimización de rendimiento e indexación en buscadores."
+    },
+    {
+      "q": "¿Pueden rediseñar mi sitio web existente?",
+      "a": "Sí. Rediseñamos sitios web antiguos para convertirlos en plataformas modernas y rápidas."
+    },
+    {
+      "q": "¿Ofrecen soporte continuo?",
+      "a": "Sí. Ofrecemos mantenimiento, actualizaciones y monitoreo de seguridad."
+    },
+    {
+      "q": "¿Con qué industrias trabajan?",
+      "a": "Trabajamos con startups, empresas SaaS, agencias y negocios globales."
+    },
+    {
+      "q": "¿Construyen plataformas SaaS escalables?",
+      "a": "Sí. Construimos plataformas SaaS escalables con tecnologías modernas."
+    }
+  ]
   },
 
   "cta": {
     "title": "¿Listo para acelerar tu crecimiento digital?",
     "subtitle": "Construyamos algo increíble juntos.",
-    "btn1": "Comenzar Proyecto",
+    "btn1": "Inicia tu proyecto",
     "btn2": "Explorar Servicios"
   },
 

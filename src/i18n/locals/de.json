@@ -107,12 +107,41 @@
   },
 
   "faq": {
-    "title": "Häufig gestellte Fragen"
+  "title": "Häufig gestellte Fragen",
+  "subtitle": "Alles, was Sie über die Zusammenarbeit mit Glowave wissen müssen",
+  "questions": [
+    {
+      "q": "Wie lange dauert es, eine Website zu erstellen?",
+      "a": "Eine typische Business-Website dauert etwa 2–4 Wochen, abhängig von der Komplexität."
+    },
+    {
+      "q": "Bieten Sie SEO zusammen mit Webentwicklung an?",
+      "a": "Ja. Wir bieten technisches SEO, Performance-Optimierung und Suchmaschinen-Indexierung."
+    },
+    {
+      "q": "Können Sie meine bestehende Website neu gestalten?",
+      "a": "Ja. Wir modernisieren alte Websites zu leistungsstarken Plattformen."
+    },
+    {
+      "q": "Bieten Sie laufenden Support an?",
+      "a": "Ja. Wir bieten Wartung, Updates und Sicherheitsüberwachung."
+    },
+    {
+      "q": "Mit welchen Branchen arbeiten Sie?",
+      "a": "Wir arbeiten mit Startups, SaaS-Unternehmen, Agenturen und vielen Branchen."
+    },
+    {
+      "q": "Erstellen Sie skalierbare SaaS-Plattformen?",
+      "a": "Ja. Wir entwickeln skalierbare SaaS-Plattformen mit modernen Technologien."
+    }
+  ]
   },
 
   "cta": {
-    "title": "Bereit für digitales Wachstum?",
-    "subtitle": "Erstellen Sie leistungsstarke digitale Erlebnisse."
+  "title": "Bereit, Ihr digitales Wachstum zu beschleunigen?",
+  "subtitle": "Glowave hilft Ihnen, leistungsstarke digitale Erlebnisse zu schaffen.",
+  "btn1": "Projekt starten",
+  "btn2": "Services entdecken"
   },
 
   "contact": {
