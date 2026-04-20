@@ -94,6 +94,24 @@
   },
 
 
+  "sp": {
+  "servicesSubtitle": "We help companies grow with powerful websites, advanced SEO strategies and high-converting marketing campaigns.",
+
+  "featuresTitle": "Here are a few things we do that others really just don’t.",
+
+  "features": {
+    "speed": "Speed",
+    "affordability": "Affordability",
+    "consistency": "Consistency",
+    "scalability": "Scalability",
+    "flexibility": "Flexibility",
+    "support": "Support",
+    "convenience": "Convenience",
+    "diversity": "Diversity"
+  }
+  },
+
+
 
   "about": {
     "title": "Our Vision & Expertise",

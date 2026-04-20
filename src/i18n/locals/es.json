@@ -77,6 +77,24 @@
   },
 
 
+  "sp": {
+  "servicesSubtitle": "Ayudamos a las empresas a crecer con sitios web potentes, estrategias avanzadas de SEO y campañas de marketing de alta conversión.",
+
+  "featuresTitle": "Estas son algunas cosas que hacemos y que otros simplemente no hacen.",
+
+  "features": {
+    "speed": "Velocidad",
+    "affordability": "Asequibilidad",
+    "consistency": "Consistencia",
+    "scalability": "Escalabilidad",
+    "flexibility": "Flexibilidad",
+    "support": "Soporte",
+    "convenience": "Comodidad",
+    "diversity": "Diversidad"
+  }
+  },
+
+
 
   "about": {
     "title": "Nuestra Visión y Experiencia",

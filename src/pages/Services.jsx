@@ -120,14 +120,13 @@ function Services() {
           animate={{ opacity: 1 }}
           className="text-gray-600 text-lg"
         >
-          We help companies grow with powerful websites, advanced SEO strategies
-          and high-converting marketing campaigns.
+          {t("sp.servicesSubtitle")}
         </motion.p>
       </section>
 
       {/* ===== Services Section ===== */}
 
-      <section className="py-20 bg-blue-50">
+      <section className="py-18 bg-blue-50">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10">
           {services.map((service, i) => (
             <motion.div
@@ -151,7 +150,7 @@ function Services() {
       <section className="py-24 bg-linear-to-b from-blue-50 via-white to-blue-50">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="max-w-3xl mx-auto text-4xl font-bold text-center mb-12">
-            Here are a few things we do that others really just don’t.
+            {t("sp.featuresTitle")}
           </h2>
 
           {/* grid */}
@@ -165,7 +164,7 @@ function Services() {
             >
               <FaBolt className="text-yellow-400 text-3xl mb-8" />
 
-              <h3 className="text-xl font-semibold mb-3">Speed</h3>
+              <h3 className="text-xl font-semibold mb-3">{t("sp.features.speed")}</h3>
 
               <p className="text-gray-600">
                 Get quicker turnarounds on design projects without sacrificing
@@ -181,7 +180,7 @@ function Services() {
             >
               <FaDollarSign className="text-gray-500 text-3xl mb-8" />
 
-              <h3 className="font-semibold mb-3">Affordability</h3>
+              <h3 className="font-semibold mb-3">{t("sp.features.affordability")}</h3>
 
               <p className="text-gray-600 text-sm">
                 Access high-quality design services at a fraction of traditional
@@ -197,7 +196,7 @@ function Services() {
             >
               <FaBalanceScale className="text-gray-500 text-3xl mb-8" />
 
-              <h3 className="font-semibold mb-3">Consistency</h3>
+              <h3 className="font-semibold mb-3">{t("sp.features.consistency")}</h3>
 
               <p className="text-gray-600 text-sm">
                 Ensure a consistent brand identity with regular design output.
@@ -212,7 +211,7 @@ function Services() {
             >
               <FaChartLine className="text-gray-500 text-3xl mb-8" />
 
-              <h3 className="font-semibold mb-2">Scalability</h3>
+              <h3 className="font-semibold mb-2">{t("sp.features.scalability")}</h3>
 
               <p className="text-gray-600 text-sm">
                 Access high-quality design services at a fraction of traditional
@@ -228,7 +227,7 @@ function Services() {
             >
               <FaRandom className="text-gray-500 text-3xl mb-8" />
 
-              <h3 className="font-semibold mb-3">Flexibility</h3>
+              <h3 className="font-semibold mb-3">{t("sp.features.flexibility")}</h3>
 
               <p className="text-gray-600 text-sm">
                 Adapt the service to cover a wide range of design tasks as
@@ -244,7 +243,7 @@ function Services() {
             >
               <FaHeadset className="text-gray-500 text-3xl mb-8" />
 
-              <h3 className="font-semibold mb-3">Support</h3>
+              <h3 className="font-semibold mb-3">{t("sp.features.support")}</h3>
 
               <p className="text-gray-600 text-sm">
                 Enjoy dedicated customer service and revisions to perfect your
@@ -260,7 +259,7 @@ function Services() {
             >
               <FaCheckCircle className="text-gray-500 text-3xl mb-8" />
 
-              <h3 className="font-semibold mb-2">Convenience</h3>
+              <h3 className="font-semibold mb-2">{t("sp.features.convenience")}</h3>
 
               <p className="text-gray-600 text-sm">
                 Streamline the design process with a simple workflow and
@@ -276,7 +275,7 @@ function Services() {
             >
               <FaStar className="text-pink-500 text-3xl mb-8" />
 
-              <h3 className="text-xl font-semibold mb-3">Diversity</h3>
+              <h3 className="text-xl font-semibold mb-3">{t("sp.features.diversity")}</h3>
 
               <p className="text-gray-600">
                 Access to a variety of styles and expertise from a pool of

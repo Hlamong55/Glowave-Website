@@ -93,7 +93,25 @@
   ]
   },
 
-  
+
+
+  "sp": {
+  "servicesSubtitle": "Wir helfen Unternehmen zu wachsen mit leistungsstarken Websites, fortschrittlichen SEO-Strategien und hochkonvertierenden Marketingkampagnen.",
+
+  "featuresTitle": "Hier sind einige Dinge, die wir tun und andere einfach nicht.",
+
+  "features": {
+    "speed": "Geschwindigkeit",
+    "affordability": "Erschwinglichkeit",
+    "consistency": "Konsistenz",
+    "scalability": "Skalierbarkeit",
+    "flexibility": "Flexibilität",
+    "support": "Support",
+    "convenience": "Bequemlichkeit",
+    "diversity": "Vielfalt"
+  }
+  },
+
 
 
   "about": {
