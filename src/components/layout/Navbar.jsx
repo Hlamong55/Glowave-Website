@@ -17,6 +17,9 @@ const languages = [
 
 function Navbar() {
 
+  const { t } = useTranslation();
+
+
   const [menuOpen, setMenuOpen] = useState(false)
   const [langOpen, setLangOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
@@ -91,7 +94,7 @@ function Navbar() {
             }
           >
             <span>
-              Home
+              {t("navbar.home")}
               <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
             </span>
           </NavLink>
@@ -107,7 +110,7 @@ function Navbar() {
             }
           >
             <span>
-              Services
+              {t("navbar.services")}
               <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
             </span>
           </NavLink>
@@ -123,7 +126,7 @@ function Navbar() {
             }
           >
             <span>
-              About
+              {t("navbar.about")}
               <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
             </span>
           </NavLink>
@@ -139,7 +142,7 @@ function Navbar() {
             }
           >
             <span>
-              Blog
+             {t("navbar.blog")}
               <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
             </span>
           </NavLink>
@@ -155,7 +158,7 @@ function Navbar() {
             }
           >
             <span>
-              Contact
+              {t("navbar.contact")}
               <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
             </span>
           </NavLink>
@@ -207,7 +210,7 @@ function Navbar() {
             className="hidden md:block bg-blue-600 text-white px-6 py-2.5 rounded-xl
             hover:bg-blue-700 hover:scale-105 transition-all duration-300 shadow-md hover:shadow-xl"
           >
-            Try for Free
+            {t("navbar.demo")}
           </Link>
 
           {/* Mobile Hamburger */}

@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import {
   FaCheckCircle,
   FaCode,
@@ -17,20 +18,23 @@ import { MdOutlineAutoGraph } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 function Services() {
+
+  const { t } = useTranslation();
+
   const services = [
     {
       icon: <FaCode />,
-      title: "Web Development",
+      title: t("services.web.title"),
       desc: "Modern, scalable and high-performance websites tailored for your business.",
     },
     {
       icon: <FaSearch />,
-      title: "SEO Optimization",
+      title: t("services.seo.title"),
       desc: "Improve search engine rankings and grow organic traffic effectively.",
     },
     {
       icon: <FaBullhorn />,
-      title: "Online Advertising",
+      title: t("services.ads.title"),
       desc: "Data-driven advertising campaigns across Google and social media.",
     },
   ];
@@ -395,14 +399,14 @@ function Services() {
               to="/contact"
               className="px-8 py-4 bg-white text-blue-700 rounded-xl font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition hover:bg-blue-600 hover:text-white"
             >
-              Start Your Project
+              {t("cta.btn1")}
             </Link>
 
             <Link
               to="/services"
               className="px-8 py-4 border border-white rounded-xl font-semibold shadow-lg hover:shadow-xl bg-blue-600 hover:bg-white hover:text-blue-700 hover:scale-105 transition"
             >
-              Explore Services
+              {t("cta.btn2")}
             </Link>
           </motion.div>
 
