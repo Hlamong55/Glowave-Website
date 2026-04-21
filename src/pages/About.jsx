@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa";
 import Testimonials from "../components/home/Testimonials";
 import { FaXTwitter } from "react-icons/fa6";
+import { useTranslation } from "react-i18next";
 
 /* ===== Framer Motion Counter ===== */
 function Counter({ target, suffix = "" }) {
@@ -46,6 +47,9 @@ function Counter({ target, suffix = "" }) {
 }
 
 function About() {
+
+  const { t } = useTranslation();
+
   return (
     <div className="relative">
       {/* Animated Glow Background */}
@@ -71,8 +75,7 @@ function About() {
         </h1>
 
         <p className="text-gray-700 text-lg">
-          We help businesses grow through modern web development, data-driven
-          marketing, advertising and powerful digital strategies.
+          {t("about.intro")}
         </p>
       </section>
 
@@ -82,30 +85,29 @@ function About() {
           {/* Card 1 */}
           <motion.div
             whileHover={{ y: -8 }}
-            className="relative p-10 rounded-3xl shadow-xl bg-linear-to-br from-blue-100 via-white to-purple-100"
+            className="relative p-10 rounded-3xl shadow-xl bg-linear-to-br from-blue-100 via-white to-purple-100 border border-gray-300"
           >
-            <p className="text-gray-600 mb-2">Our mission</p>
-            <h3 className="text-3xl font-bold mb-6">Design with intention</h3>
+            <p className="text-gray-700 mb-2">{t("about.mission.label")}</p>
+            <h3 className="text-3xl font-bold mb-6">{t("about.mission.title")}</h3>
 
             <p className="text-gray-600 mb-6">
-              We partner with teams to design websites that feel alive, clear
-              and trusted.
+              {t("about.mission.desc")}
             </p>
 
             <div className="space-y-3">
               <div className="flex items-center gap-2">
                 <FaCheckCircle className="text-blue-600" />
-                Design for trust
+                {t("about.mission.points.0")}
               </div>
 
               <div className="flex items-center gap-2">
                 <FaCheckCircle className="text-blue-600" />
-                Clarify complex ideas
+                {t("about.mission.points.1")}
               </div>
 
               <div className="flex items-center gap-2">
                 <FaCheckCircle className="text-blue-600" />
-                Support lasting momentum
+                {t("about.mission.points.2")}
               </div>
             </div>
 
@@ -123,29 +125,28 @@ function About() {
             whileHover={{ y: -8 }}
             className="relative p-10 rounded-3xl shadow-xl bg-linear-to-br from-purple-100 via-white to-blue-100"
           >
-            <p className="text-gray-500 mb-2">Who we are</p>
+            <p className="text-gray-700 mb-2">{t("about.team.label")}</p>
 
-            <h3 className="text-3xl font-bold mb-6">Small team, big care</h3>
+            <h3 className="text-3xl font-bold mb-6">{t("about.team.title")}</h3>
 
             <p className="text-gray-600 mb-6">
-              We’re a compact senior studio focused on calm, conversion-minded
-              digital design.
+              {t("about.team.desc")}
             </p>
 
             <div className="space-y-3">
               <div className="flex items-center gap-2">
                 <FaCheckCircle className="text-blue-600" />
-                Small senior team
+                {t("about.team.points.0")}
               </div>
 
               <div className="flex items-center gap-2">
                 <FaCheckCircle className="text-blue-600" />
-                Flexible remote collaboration
+                {t("about.team.points.1")}
               </div>
 
               <div className="flex items-center gap-2">
                 <FaCheckCircle className="text-blue-600" />
-                Honest clear feedback
+                {t("about.team.points.2")}
               </div>
             </div>
 

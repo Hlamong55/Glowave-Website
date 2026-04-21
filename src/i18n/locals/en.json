@@ -131,10 +131,28 @@
 
 
   "about": {
-    "title": "Our Vision & Expertise",
-    "subtitle": "Helping companies grow through technology and strategy.",
-    "missionTitle": "Design with intention",
-    "missionDesc": "We partner with teams to design websites that feel alive, clear, and trusted."
+  "intro": "We help businesses grow through modern web development, data-driven marketing, advertising and powerful digital strategies.", 
+  "mission": {
+    "label": "Our mission",
+    "title": "Design with intention",
+    "desc": "We partner with teams to design websites that feel alive, clear and trusted.",
+    "points": [
+      "Design for trust",
+      "Clarify complex ideas",
+      "Support lasting momentum"
+    ]
+  },
+
+  "team": {
+    "label": "Who we are",
+    "title": "Small team, big care",
+    "desc": "We're a compact senior studio focused on calm, conversion-minded digital design.",
+    "points": [
+      "Small senior team",
+      "Flexible remote collaboration",
+      "Honest clear feedback"
+    ]
+  }
   },
 
   "pricing": {

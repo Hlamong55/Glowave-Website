@@ -131,8 +131,28 @@
 
 
   "about": {
-    "title": "Unsere Vision und Expertise",
-    "subtitle": "Unternehmen durch Technologie wachsen lassen."
+   "intro": "Wir helfen Unternehmen zu wachsen – durch moderne Webentwicklung, datengetriebenes Marketing, Werbung und leistungsstarke digitale Strategien.",
+  "mission": {
+    "label": "Unsere Mission",
+    "title": "Design mit Absicht",
+    "desc": "Wir arbeiten mit Teams zusammen, um Websites zu gestalten, die lebendig, klar und vertrauenswürdig wirken.",
+    "points": [
+      "Design für Vertrauen",
+      "Komplexe Ideen verständlich machen",
+      "Langfristige Entwicklung unterstützen"
+    ]
+  },
+
+  "team": {
+    "label": "Wer wir sind",
+    "title": "Kleines Team, große Sorgfalt",
+    "desc": "Wir sind ein kleines, erfahrenes Studio mit Fokus auf ruhiges und konversionsorientiertes digitales Design.",
+    "points": [
+      "Kleines Senior-Team",
+      "Flexible Remote-Zusammenarbeit",
+      "Ehrliches und klares Feedback"
+    ]
+  }
   },
 
   "pricing": {

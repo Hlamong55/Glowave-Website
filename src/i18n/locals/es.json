@@ -114,10 +114,28 @@
 
 
   "about": {
-    "title": "Nuestra Visión y Experiencia",
-    "subtitle": "Ayudando a las empresas a crecer con tecnología.",
-    "missionTitle": "Diseño con propósito",
-    "missionDesc": "Creamos sitios web claros y confiables."
+  "intro": "Ayudamos a las empresas a crecer mediante desarrollo web moderno, marketing basado en datos, publicidad y potentes estrategias digitales.",
+  "mission": {
+    "label": "Nuestra misión",
+    "title": "Diseñar con intención",
+    "desc": "Colaboramos con equipos para diseñar sitios web que se sientan vivos, claros y confiables.",
+    "points": [
+      "Diseño para generar confianza",
+      "Aclarar ideas complejas",
+      "Apoyar el crecimiento a largo plazo"
+    ]
+  },
+
+  "team": {
+    "label": "Quiénes somos",
+    "title": "Equipo pequeño, gran cuidado",
+    "desc": "Somos un pequeño estudio senior enfocado en un diseño digital tranquilo y orientado a la conversión.",
+    "points": [
+      "Pequeño equipo senior",
+      "Colaboración remota flexible",
+      "Retroalimentación honesta y clara"
+    ]
+  }
   },
 
   "pricing": {
