@@ -116,12 +116,38 @@
   },
 
   "pricing": {
-    "title": "Impulsa tu crecimiento",
-    "subtitle": "Elige el plan adecuado para tu negocio.",
-    "starter": "Inicial",
-    "growth": "Crecimiento",
-    "premium": "Premium",
-    "book": "Reservar una llamada"
+  "badge": "Más Popular",
+  "button": "Reservar una llamada",
+
+  "starter": {
+    "title": "Inicial",
+    "features": [
+      "Sitio web de landing page",
+      "Diseño responsivo",
+      "SEO básico",
+      "2 revisiones"
+    ]
+  },
+
+  "premium": {
+    "title": "Premium",
+    "features": [
+      "Plataforma web personalizada",
+      "Configuración completa de marketing",
+      "Analítica avanzada",
+      "Soporte dedicado"
+    ]
+  },
+
+  "growth": {
+    "title": "Crecimiento",
+    "features": [
+      "Sitio web empresarial completo",
+      "SEO avanzado",
+      "Estrategia de marketing",
+      "Soporte prioritario"
+    ]
+  }
   },
 
   "faq": {

@@ -41,36 +41,36 @@ function Services() {
 
   const pricing = [
     {
-      title: "Starter",
+      title: t("pricing.starter.title"),
       price: "$499",
       color: "from-blue-100 to-blue-50",
       features: [
-        "Landing page website",
-        "Responsive design",
-        "Basic SEO",
-        "2 revisions",
+        t("pricing.starter.features.0"),
+        t("pricing.starter.features.1"),
+        t("pricing.starter.features.2"),
+        t("pricing.starter.features.3"),
       ],
     },
     {
-      title: "Premium",
+      title: t("pricing.premium.title"),
       price: "$1,999",
       color: "from-purple-100 to-pink-50",
       features: [
-        "Custom web platform",
-        "Complete marketing setup",
-        "Advanced analytics",
-        "Dedicated support",
+        t("pricing.premium.features.0"),
+        t("pricing.premium.features.1"),
+        t("pricing.premium.features.2"),
+        t("pricing.premium.features.3"),
       ],
     },
     {
-      title: "Growth",
+      title: t("pricing.growth.title"),
       price: "$999",
       color: "from-indigo-100 to-blue-50",
       features: [
-        "Full business website",
-        "Advanced SEO",
-        "Marketing strategy",
-        "Priority support",
+        t("pricing.growth.features.0"),
+        t("pricing.growth.features.1"),
+        t("pricing.growth.features.2"),
+        t("pricing.growth.features.3"),
       ],
     }
   ];
@@ -301,7 +301,7 @@ function Services() {
             {pricing.map((plan, index) => (
               <motion.div
                 key={index}
-                whileHover={{ y: -15, scale: 1.02 }}
+                whileHover={{ y: -5, scale: 1.02 }}
                 transition={{ type: "spring", stiffness: 200 }}
                 className="group relative p-0.5 rounded-3xl bg-linear-to-r from-blue-400 via-purple-400 to-pink-400"
               >
@@ -329,7 +329,7 @@ function Services() {
                   {/* Button */}
 
                   <button className="w-full py-3 mb-8 rounded-3xl bg-white font-medium shadow-md transition duration-300 hover:scale-105 hover:shadow-xl">
-                    Book a call
+                    {t("pricing.button")}
                   </button>
 
                   {/* Features */}

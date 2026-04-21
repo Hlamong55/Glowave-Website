@@ -133,12 +133,38 @@
   },
 
   "pricing": {
-    "title": "Unlock Your Growth",
-    "subtitle": "Choose a plan that fits your business needs.",
-    "starter": "Starter",
-    "growth": "Growth",
-    "premium": "Premium",
-    "book": "Book a Call"
+  "badge": "Most Popular",
+  "button": "Book a call",
+
+  "starter": {
+    "title": "Starter",
+    "features": [
+      "Landing page website",
+      "Responsive design",
+      "Basic SEO",
+      "2 revisions"
+    ]
+  },
+
+  "premium": {
+    "title": "Premium",
+    "features": [
+      "Custom web platform",
+      "Complete marketing setup",
+      "Advanced analytics",
+      "Dedicated support"
+    ]
+  },
+
+  "growth": {
+    "title": "Growth",
+    "features": [
+      "Full business website",
+      "Advanced SEO",
+      "Marketing strategy",
+      "Priority support"
+    ]
+  }
   },
 
   "faq": {

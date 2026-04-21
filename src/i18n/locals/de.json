@@ -132,8 +132,38 @@
   },
 
   "pricing": {
-    "title": "Starten Sie Ihr Wachstum",
-    "subtitle": "Wählen Sie den passenden Plan."
+  "badge": "Am beliebtesten",
+  "button": "Anruf buchen",
+
+  "starter": {
+    "title": "Starter",
+    "features": [
+      "Landingpage-Website",
+      "Responsives Design",
+      "Basis SEO",
+      "2 Überarbeitungen"
+    ]
+  },
+
+  "premium": {
+    "title": "Premium",
+    "features": [
+      "Individuelle Webplattform",
+      "Komplettes Marketing-Setup",
+      "Erweiterte Analysen",
+      "Dedizierter Support"
+    ]
+  },
+
+  "growth": {
+    "title": "Wachstum",
+    "features": [
+      "Komplette Business-Website",
+      "Erweitertes SEO",
+      "Marketingstrategie",
+      "Priorisierter Support"
+    ]
+  }
   },
 
   "faq": {
