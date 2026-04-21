@@ -383,8 +383,7 @@ function Services() {
             transition={{ delay: 0.2 }}
             className="mt-6 text-lg text-gray-700 max-w-2xl mx-auto"
           >
-            Join businesses that trust Glowave to build powerful websites, boost
-            search rankings and run high-converting marketing campaigns.
+            {t("st.title")}
           </motion.p>
 
           {/* CTA Buttons */}
@@ -414,9 +413,9 @@ function Services() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
-            className="mt-8 text-sm text-gray-800"
+            className="mt-6  text-gray-800"
           >
-            🚀 Trusted by startups, agencies and growing businesses worldwide
+            🚀 {t("st.subtitle")}
           </motion.p>
         </div>
       </section>

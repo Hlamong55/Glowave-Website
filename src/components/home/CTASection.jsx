@@ -8,12 +8,12 @@ function CTASection() {
   const { t } = useTranslation();
 
   return (
-    <section className="relative py-20 overflow-hidden bg-linear-to-t from-purple-100 to-blue-50
+    <section className="relative py-20 overflow-hidden bg-linear-to-t from-blue-100 to-blue-50
     ">
 
       {/* Soft glow */}
-      <div className="absolute w-96 h-96 bg-blue-500 opacity-20 blur-3xl -top-32 -left-32"></div>
-      <div className="absolute w-96 h-96 bg-blue-500 opacity-20 blur-3xl -bottom-32 -right-32"></div>
+      <div className="absolute w-96 h-96 bg-blue-700 opacity-20 blur-3xl -top-32 -left-32"></div>
+      <div className="absolute w-96 h-96 bg-blue-700 opacity-20 blur-3xl -bottom-32 -right-32"></div>
 
       <div className="relative max-w-6xl mx-auto px-6 text-center">
 
@@ -30,7 +30,7 @@ function CTASection() {
           initial={{ opacity:0 }}
           whileInView={{ opacity:1 }}
           transition={{ delay:0.2 }}
-          className="text-gray-600 max-w-2xl mx-auto mb-10 text-lg"
+          className="text-gray-700 max-w-2xl mx-auto mb-10 text-lg"
         >
            {t("cta.subtitle")}
         </motion.p>
