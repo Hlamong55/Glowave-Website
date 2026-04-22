@@ -190,6 +190,31 @@
   }
   },
 
+  "awardTeam": {
+  "title": "Erfolge & Auszeichnungen",
+
+  "awards": [
+    "Top Digitalagentur",
+    "Kundenbewertung",
+    "Globale Kunden",
+    "Branchenpreise"
+  ],
+
+  "stats": [
+    "Abgeschlossene Projekte",
+    "Zufriedene Kunden",
+    "Bediente Länder",
+    "Durchschnittliche Bewertung"
+  ],
+
+  "team": {
+    "title": "Lernen Sie das Team kennen",
+    "subtitle": "Hinter dem kreativen Prozess beim Aufbau Ihrer Marke"
+  }
+  },
+
+
+
   "faq": {
   "title": "Häufig gestellte Fragen",
   "subtitle": "Alles, was Sie über die Zusammenarbeit mit Glowave wissen müssen",

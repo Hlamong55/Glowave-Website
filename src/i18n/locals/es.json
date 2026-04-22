@@ -173,6 +173,31 @@
   }
   },
 
+  "awardTeam": {
+  "title": "Logros y Reconocimientos",
+
+  "awards": [
+    "Agencia Digital Líder",
+    "Calificación de Clientes",
+    "Clientes Globales",
+    "Premios de la Industria"
+  ],
+
+  "stats": [
+    "Proyectos Entregados",
+    "Clientes Satisfechos",
+    "Países Atendidos",
+    "Calificación Promedio"
+  ],
+
+  "team": {
+    "title": "Conoce al Equipo",
+    "subtitle": "Detrás del proceso creativo de construir tu marca"
+  }
+  },
+
+
+
   "faq": {
   "title": "Preguntas Frecuentes",
   "subtitle": "Todo lo que necesitas saber sobre trabajar con Glowave",

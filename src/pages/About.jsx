@@ -164,7 +164,7 @@ function About() {
       {/* client statistics */}
       <section className="py-20 bg-linear-to-b from-blue-50 to-white">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
             Achievements & Recognition
           </h2>
 
@@ -210,26 +210,26 @@ function About() {
               <h3 className="text-5xl font-bold text-blue-700">
                 <Counter target={120} suffix="+" />
               </h3>
-              <p className="text-gray-600 mt-2">Projects Delivered</p>
+              <p className="text-gray-700 mt-2">Projects Delivered</p>
             </div>
 
             <div>
               <h3 className="text-5xl font-bold text-blue-700">
                 <Counter target={85} suffix="+" />
               </h3>
-              <p className="text-gray-600 mt-2">Happy Clients</p>
+              <p className="text-gray-700 mt-2">Happy Clients</p>
             </div>
 
             <div>
               <h3 className="text-5xl font-bold text-blue-700">
                 <Counter target={12} />
               </h3>
-              <p className="text-gray-600 mt-2">Countries Served</p>
+              <p className="text-gray-700 mt-2">Countries Served</p>
             </div>
 
             <div>
               <h3 className="text-5xl font-bold text-blue-700">5★</h3>
-              <p className="text-gray-600 mt-2">Average Rating</p>
+              <p className="text-gray-700 mt-2">Average Rating</p>
             </div>
           </div>
         </div>
