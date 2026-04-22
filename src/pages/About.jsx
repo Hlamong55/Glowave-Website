@@ -165,7 +165,7 @@ function About() {
       <section className="py-20 bg-linear-to-b from-blue-50 to-white">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-            Achievements & Recognition
+            {t("awardTeam.title")}
           </h2>
 
           {/* Awards Cards */}
@@ -173,22 +173,22 @@ function About() {
             {[
               {
                 icon: "🏆",
-                title: "Top Digital Agency",
+                title: t("awardTeam.awards.0"),
                 desc: "Recognized for delivering high-performance digital solutions.",
               },
               {
                 icon: "⭐",
-                title: "5★ Client Rating",
+                title:  t("awardTeam.awards.1"),
                 desc: "Consistently rated highly by clients worldwide.",
               },
               {
                 icon: "🌍",
-                title: "Global Clients",
+                title: t("awardTeam.awards.2"),
                 desc: "Projects delivered across multiple countries.",
               },
               {
                 icon: "🥇",
-                title: "Industry Awards",
+                title: t("awardTeam.awards.3"),
                 desc: "Recognized for innovation and modern design.",
               },
             ].map((item, i) => (
@@ -210,26 +210,26 @@ function About() {
               <h3 className="text-5xl font-bold text-blue-700">
                 <Counter target={120} suffix="+" />
               </h3>
-              <p className="text-gray-700 mt-2">Projects Delivered</p>
+              <p className="text-gray-700 mt-2">{t("awardTeam.stats.0")}</p>
             </div>
 
             <div>
               <h3 className="text-5xl font-bold text-blue-700">
                 <Counter target={85} suffix="+" />
               </h3>
-              <p className="text-gray-700 mt-2">Happy Clients</p>
+              <p className="text-gray-700 mt-2">{t("awardTeam.stats.1")}</p>
             </div>
 
             <div>
               <h3 className="text-5xl font-bold text-blue-700">
                 <Counter target={12} />
               </h3>
-              <p className="text-gray-700 mt-2">Countries Served</p>
+              <p className="text-gray-700 mt-2">{t("awardTeam.stats.2")}</p>
             </div>
 
             <div>
               <h3 className="text-5xl font-bold text-blue-700">5★</h3>
-              <p className="text-gray-700 mt-2">Average Rating</p>
+              <p className="text-gray-700 mt-2">{t("awardTeam.stats.3")}</p>
             </div>
           </div>
         </div>
@@ -238,10 +238,10 @@ function About() {
       {/* Team */}
       <section className="py-16 bg-linear-to-br from-purple-200 via-blue-100 to-yellow-200">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-5xl font-bold text-center mb-1.5">
-            Meet The Team
+          <h2 className="text-5xl font-bold text-center mb-2">
+            {t("awardTeam.team.title")}
           </h2>
-          <h3 className="text-2xl font-semibold text-center mb-12">Behind The Creative Process Of Building Your Brand</h3>
+          <h3 className="text-2xl font-semibold text-center mb-12">{t("awardTeam.team.subtitle")}</h3>
 
           <div className="grid md:grid-cols-3 gap-12">
             {[
