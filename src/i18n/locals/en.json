@@ -214,6 +214,12 @@
   },
 
 
+  "blog": {
+  "title": "Latest Articles",
+  "readMore": "Read More"
+  },
+
+
 
   "faq": {
   "title": "Frequently Asked Questions",

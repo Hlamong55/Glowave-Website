@@ -213,6 +213,11 @@
   }
   },
 
+  "blog": {
+  "title": "Neueste Artikel",
+  "readMore": "Mehr Lesen"
+  },
+
 
 
   "faq": {

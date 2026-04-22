@@ -2,8 +2,11 @@ import { useEffect, useState } from "react"
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion"
 import { Link } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 
 function Blog() {
+
+  const { t } = useTranslation();
 
   const [blogs, setBlogs] = useState([])
 
@@ -56,7 +59,7 @@ function Blog() {
         {/* Title */}
 
         <h1 className="text-5xl font-bold text-center mb-16 text-blue-600">
-          Latest Articles
+          {t("blog.title")}
         </h1>
 
         {/* Blog Grid */}
@@ -96,7 +99,7 @@ function Blog() {
                   to={`/blog/${blog.slug}`}
                   className="text-blue-600 font-medium hover:underline mt-auto"
                 >
-                  Read More →
+                  {t("blog.readMore")} →
                 </Link>
 
               </div>

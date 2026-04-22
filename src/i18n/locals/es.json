@@ -196,6 +196,11 @@
   }
   },
 
+  "blog": {
+  "title": "Últimos Artículos",
+  "readMore": "Leer Más"
+  },
+
 
 
   "faq": {
