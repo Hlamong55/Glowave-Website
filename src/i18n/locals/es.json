@@ -263,10 +263,18 @@
   },
 
   "footer": {
-    "services": "Servicios",
-    "links": "Enlaces Rápidos",
-    "newsletter": "Boletín",
-    "subscribe": "Suscribirse",
-    "copyright": "Todos los derechos reservados"
-  }
+  "desc": "Creamos sitios web de alto rendimiento, estrategias SEO y soluciones de marketing digital que ayudan a las empresas a crecer más rápido.",
+
+  "quickLinks": "Enlaces Rápidos",
+  "services": "Servicios",
+  "growthStrategy": "Estrategia de Crecimiento",
+
+  "otherLinks": "Otros Enlaces",
+  "privacy": "Política de Privacidad",
+  "terms": "Términos de Servicio",
+  "refund": "Política de Reembolso",
+
+  "newsletter": "Boletín",
+  "newsletterDesc": "Suscríbete para recibir actualizaciones sobre nuevos artículos y estrategias de crecimiento."
+}
 }

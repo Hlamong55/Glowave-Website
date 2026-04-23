@@ -282,10 +282,18 @@
   },
 
   "footer": {
-    "services": "Services",
-    "links": "Quick Links",
-    "newsletter": "Newsletter",
-    "subscribe": "Subscribe",
-    "copyright": "All rights reserved"
-  }
+  "desc": "We build high-performance websites, SEO strategies and digital marketing solutions that help businesses grow faster.",
+
+  "quickLinks": "Quick Links",
+  "services": "Services",
+  "growthStrategy": "Growth Strategy",
+
+  "otherLinks": "Other Links",
+  "privacy": "Privacy Policy",
+  "terms": "Terms of Service",
+  "refund": "Refund Policy",
+
+  "newsletter": "Newsletter",
+  "newsletterDesc": "Subscribe to get updates on new articles and growth strategies."
+}
 }

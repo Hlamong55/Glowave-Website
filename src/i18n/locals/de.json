@@ -280,8 +280,18 @@
   },
 
   "footer": {
-    "services": "Services",
-    "links": "Schnelllinks",
-    "newsletter": "Newsletter"
-  }
+  "desc": "Wir erstellen leistungsstarke Websites, SEO-Strategien und digitale Marketinglösungen, die Unternehmen helfen, schneller zu wachsen.",
+
+  "quickLinks": "Schnelllinks",
+  "services": "Dienstleistungen",
+  "growthStrategy": "Wachstumsstrategie",
+
+  "otherLinks": "Weitere Links",
+  "privacy": "Datenschutzrichtlinie",
+  "terms": "Nutzungsbedingungen",
+  "refund": "Rückerstattungsrichtlinie",
+
+  "newsletter": "Newsletter",
+  "newsletterDesc": "Abonnieren Sie, um Updates zu neuen Artikeln und Wachstumsstrategien zu erhalten."
+}
 }
