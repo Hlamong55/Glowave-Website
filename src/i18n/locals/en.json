@@ -220,6 +220,27 @@
   },
 
 
+  "contact": {
+  "title": "Contact Us",
+  "subtitle": "Get in touch today",
+  "desc": "Have questions about our services? We'd love to hear from you. Send us a message and our team will respond as soon as possible.",
+
+  "info": {
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Our Location"
+  },
+
+  "form": {
+    "name": "Full Name",
+    "email": "Email",
+    "company": "Company (optional)",
+    "message": "Leave us a message",
+    "button": "Send Message"
+  }
+  },
+
+
 
   "faq": {
   "title": "Frequently Asked Questions",
@@ -257,16 +278,6 @@
     "subtitle": "Let Glowave help you build powerful digital experiences.",
     "btn1": "Start Your Project",
     "btn2": "Explore Services"
-  },
-
-  "contact": {
-    "title": "Get in Touch",
-    "subtitle": "Have questions? Our team is ready to help.",
-    "name": "Full Name",
-    "email": "Email",
-    "company": "Company",
-    "message": "Leave us a message",
-    "send": "Send Message"
   },
 
   "footer": {

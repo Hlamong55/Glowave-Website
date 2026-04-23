@@ -218,6 +218,26 @@
   "readMore": "Mehr Lesen"
   },
 
+  "contact": {
+  "title": "Kontakt",
+  "subtitle": "Kontaktieren Sie uns noch heute",
+  "desc": "Haben Sie Fragen zu unseren Dienstleistungen? Wir würden uns freuen, von Ihnen zu hören. Senden Sie uns eine Nachricht und unser Team wird so schnell wie möglich antworten.",
+
+  "info": {
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "location": "Unser Standort"
+  },
+
+  "form": {
+    "name": "Vollständiger Name",
+    "email": "E-Mail",
+    "company": "Unternehmen (optional)",
+    "message": "Hinterlassen Sie uns eine Nachricht",
+    "button": "Nachricht senden"
+  }
+  },
+
 
 
   "faq": {
@@ -256,10 +276,6 @@
   "subtitle": "Glowave hilft Ihnen, leistungsstarke digitale Erlebnisse zu schaffen.",
   "btn1": "Projekt starten",
   "btn2": "Services entdecken"
-  },
-
-  "contact": {
-    "title": "Kontaktieren Sie uns"
   },
 
   "footer": {

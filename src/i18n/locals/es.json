@@ -201,6 +201,26 @@
   "readMore": "Leer Más"
   },
 
+  "contact": {
+  "title": "Contáctanos",
+  "subtitle": "Ponte en contacto hoy",
+  "desc": "¿Tienes preguntas sobre nuestros servicios? Nos encantaría saber de ti. Envíanos un mensaje y nuestro equipo responderá lo antes posible.",
+
+  "info": {
+    "email": "Correo",
+    "phone": "Teléfono",
+    "location": "Nuestra Ubicación"
+  },
+
+  "form": {
+    "name": "Nombre Completo",
+    "email": "Correo",
+    "company": "Empresa (opcional)",
+    "message": "Déjanos un mensaje",
+    "button": "Enviar Mensaje"
+  }
+  },
+
 
 
   "faq": {
@@ -239,16 +259,6 @@
     "subtitle": "Construyamos algo increíble juntos.",
     "btn1": "Inicia tu proyecto",
     "btn2": "Explorar Servicios"
-  },
-
-  "contact": {
-    "title": "Contáctanos",
-    "subtitle": "Nuestro equipo está listo para ayudarte.",
-    "name": "Nombre Completo",
-    "email": "Correo Electrónico",
-    "company": "Empresa",
-    "message": "Escribe tu mensaje",
-    "send": "Enviar Mensaje"
   },
 
   "footer": {
