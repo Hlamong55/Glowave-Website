@@ -16,7 +16,7 @@ function Counter({ target, suffix = "" }) {
 
   useEffect(() => {
     let start = 0;
-    const duration = 2000; // 2 sec
+    const duration = 3000; // 2 sec
     const increment = target / (duration / 30);
 
     const timer = setInterval(() => {

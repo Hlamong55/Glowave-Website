@@ -137,7 +137,8 @@ function Footer() {
           This Website is made with
           <span className="text-red-500 mx-1">❤</span>
           by
-          <span className="text-blue-500 ml-1 font-medium">Hlamong Marma</span>
+          <Link to="http://hlamong-dev-portfolio.netlify.app/" 
+          className="text-blue-500 ml-1 font-medium">Hlamong Marma</Link>
         </p>
       </div>
     </footer>

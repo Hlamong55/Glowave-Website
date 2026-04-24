@@ -76,7 +76,7 @@ function Services() {
   ];
 
   return (
-    <div className="pt-20 relative overflow-hidden bg-linear-to-b from-blue-50 via-white to-blue-50">
+    <div className="pt-20 relative overflow-x-hidden bg-linear-to-b from-blue-50 via-white to-blue-50">
       {/* Grid Pattern */}
       <div className="absolute inset-0 opacity-[0.05] bg-[radial-gradient(circle,#000_1px,transparent_1px)] bg-size-[40px_40px]"></div>
 
@@ -309,7 +309,7 @@ function Services() {
 
                 {index === 1 && (
                   <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-blue-600 text-white text-xs font-semibold px-4 py-2 rounded-full shadow-lg">
-                    ⭐ Most Popular
+                    ⭐ {t("pricing.badge")}
                   </div>
                 )}
 
