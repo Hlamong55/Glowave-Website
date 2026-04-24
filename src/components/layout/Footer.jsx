@@ -2,8 +2,12 @@ import { Link } from "react-router-dom";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import logo from "../../assets/testlogo.png";
+import { useTranslation } from "react-i18next";
 
 function Footer() {
+
+  const { t } = useTranslation();
+
   return (
     <footer className="bg-black text-gray-300 pt-16 px-4">
       <div className="max-w-7xl mx-auto  grid md:grid-cols-5 gap-12">
@@ -15,8 +19,7 @@ function Footer() {
           </div>
 
           <p className="text-gray-400 text-sm mb-5">
-            We build high-performance websites, SEO strategies and digital
-            marketing solutions that help businesses grow faster.
+            {t("footer.desc")}
           </p>
 
           {/* Social */}
@@ -40,20 +43,20 @@ function Footer() {
         {/* Quick links */}
 
         <div>
-          <h3 className="text-left md:text-center text-white font-semibold mb-4">Quick Links</h3>
+          <h3 className="text-left md:text-center text-white font-semibold mb-4">{t("footer.quickLinks")}</h3>
 
           <ul className="text-left md:text-center space-y-3 text-sm">
             <li>
-              <Link to="/">Home</Link>
+              <Link className="hover:underline hover:text-blue-500 hover:font-semibold" to="/">{t("navbar.home")}</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link className="hover:underline hover:text-blue-500 hover:font-semibold" to="/about">{t("navbar.about")}</Link>
             </li>
             <li>
-              <Link to="/blog">Blog</Link>
+              <Link className="hover:underline hover:text-blue-500 hover:font-semibold" to="/blog">{t("navbar.blog")}</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link className="hover:underline hover:text-blue-500 hover:font-semibold" to="/contact">{t("navbar.contact")}</Link>
             </li>
           </ul>
         </div>
@@ -61,20 +64,20 @@ function Footer() {
         {/* Services */}
 
         <div>
-          <h3 className="text-white font-semibold mb-4">Services</h3>
+          <h3 className="text-white font-semibold mb-4">{t("footer.services")}</h3>
 
           <ul className="space-y-3 text-sm">
             <li>
-              <Link to="/services">Web Development</Link>
+              <Link className="hover:underline hover:text-blue-500 hover:font-semibold" to="/services">{t("services.web.title")}</Link>
             </li>
             <li>
-              <Link to="/services">SEO Optimization</Link>
+              <Link className="hover:underline hover:text-blue-500 hover:font-semibold" to="/services">{t("services.seo.title")}</Link>
             </li>
             <li>
-              <Link to="/services">Online Advertising</Link>
+              <Link className="hover:underline hover:text-blue-500 hover:font-semibold" to="/services">{t("services.ads.title")}</Link>
             </li>
             <li>
-              <Link to="/services">Growth Strategy</Link>
+              <Link className="hover:underline hover:text-blue-500 hover:font-semibold" to="/services">{t("footer.growthStrategy")}</Link>
             </li>
           </ul>
         </div>
@@ -82,17 +85,17 @@ function Footer() {
         {/* Links */}
 
         <div>
-          <h3 className="text-white font-semibold mb-4">Other Links</h3>
+          <h3 className="text-white font-semibold mb-4">{t("footer.otherLinks")}</h3>
 
           <ul className="space-y-3 text-sm">
             <li>
-              <Link to="/privacy-policy">Privacy Policy</Link>
+              <Link className="hover:underline hover:text-blue-500 hover:font-semibold" to="/privacy-policy">{t("footer.privacy")}</Link>
             </li>
             <li>
-              <Link to="/terms&service">Terms of Service</Link>
+              <Link className="hover:underline hover:text-blue-500 hover:font-semibold" to="/terms&service">{t("footer.terms")}</Link>
             </li>
             <li>
-              <Link to="/refund-policy">Refund Policy</Link>
+              <Link className="hover:underline hover:text-blue-500 hover:font-semibold" to="/refund-policy">{t("footer.refund")}</Link>
             </li>
             
           </ul>
@@ -103,10 +106,10 @@ function Footer() {
         {/* Newsletter */}
 
         <div>
-          <h3 className="text-white font-semibold mb-4">Newsletter</h3>
+          <h3 className="text-white font-semibold mb-4">{t("footer.newsletter")}</h3>
 
-          <p className="text-sm text-gray-400 mb-6">
-            Subscribe to get updates on new articles and growth strategies.
+          <p className=" text-gray-400 mb-6">
+            {t("footer.newsletterDesc")}
           </p>
 
           <div className="flex border-b border-gray-500 pb-2">
