@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 
 import google from "../../assets/clients/google.png"
 import shopify from "../../assets/clients/shopi.png"
-import slack from "../../assets/clients/slack_Logo.png"
+import slack from "../../assets/clients/slack.png"
 import amazon from "../../assets/clients/amazon.png"
 import casio from "../../assets/clients/casio.png"
 import randstad from "../../assets/clients/randstad.png"
