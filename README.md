@@ -1,6 +1,6 @@
 # Glowave — Digital Growth SaaS Website
 
-Glowave is a modern SaaS-style digital agency website built with **React, Vite, TailwindCSS, and i18next**.
+🎯 Glowave is a modern SaaS-style digital agency website built with **React, Vite, TailwindCSS, and i18next**.
 
 This project showcases a **high-performance digital marketing website** with smooth animations, multilingual support, and a modern SaaS UI.
 
@@ -10,7 +10,7 @@ This project showcases a **high-performance digital marketing website** with smo
 
 🔗 **Website Preview**
 
-https://your-live-demo-link.com
+https://glowave-website.vercel.app/
 
 
 ---
