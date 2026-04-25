@@ -6,9 +6,9 @@ import About from "../pages/About"
 import Blog from "../pages/Blog"
 import BlogPost from "../pages/BlogPost"
 import Contact from "../pages/Contact"
-import PrivacyPolicy from "../pages/PrivacyPolicy"
-import Terms from "../pages/TermsOfService"
-import Refund from "../pages/RefundPolicy"
+import PrivacyPolicy from "../pages/privacyPolicy";
+import Terms from "../pages/TermsOfService";
+import Refund from "../pages/RefundPolicy";
 
 function AppRoutes() {
   return (
@@ -20,7 +20,7 @@ function AppRoutes() {
       <Route path="/blog/:slug" element={<BlogPost />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-      <Route path="/terms&service" element={<Terms />} />
+      <Route path="/terms-service" element={<Terms />} />
       <Route path="/refund-policy" element={<Refund />} />
     </Routes>
   )

@@ -92,7 +92,7 @@ function Footer() {
               <Link className="hover:underline hover:text-blue-500 hover:font-semibold" to="/privacy-policy">{t("footer.privacy")}</Link>
             </li>
             <li>
-              <Link className="hover:underline hover:text-blue-500 hover:font-semibold" to="/terms&service">{t("footer.terms")}</Link>
+              <Link className="hover:underline hover:text-blue-500 hover:font-semibold" to="/terms-service">{t("footer.terms")}</Link>
             </li>
             <li>
               <Link className="hover:underline hover:text-blue-500 hover:font-semibold" to="/refund-policy">{t("footer.refund")}</Link>
